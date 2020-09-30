@@ -1,0 +1,2202 @@
+Symbol	Description
+ADDA	AMEX Advance Decline Difference
+ADDC	CSE Advance Decline Difference
+ADDE	ETFS Advance Decline Difference
+ADDN	NYSE Advance Decline Difference
+ADDQ	NASD Advance Decline Difference
+ADDS	TSX Advance Decline Difference
+ADDT	Total Advance Decline Difference
+ADDU	OTC US Advance Decline Difference
+ADDV	TSXV Advance Decline Difference
+ADDX	CAD Total Advance Decline Difference
+ADRA	AMEX Advance Decline Ratio
+ADRC	CSE Advance Decline Ratio
+ADRE	ETFS Advance Decline Ratio
+ADRN	NYSE Advance Decline Ratio
+ADRQ	NASD Advance Decline Ratio
+ADRS	TSX Advance Decline Ratio
+ADRT	Total Advance Decline Ratio
+ADRU	OTC US Advance Decline Ratio
+ADRV	TSXV Advance Decline Ratio
+ADRX	CAD Total Advance Decline Ratio
+ADVA	AMEX Advancing Stocks
+ADVC	CSE Advancing Stocks
+ADVE	ETFS Advancing Stocks
+ADVN	NYSE Advancing Stocks
+ADVQ	NASD Advancing Stocks
+ADVS	TSX Advancing Stocks
+ADVT	Total Advancing Stocks
+ADVU	OTC US Advancing Stocks
+ADVV	TSXV Advancing Stocks
+ADVX	CAD Total Advancing Stocks
+ASHD	AMEX Declining Stocks
+ASHF	AMEX Advances - Declines
+ASHR	AMEX Advance Decline Ratio
+ASHU	AMEX Advancing Stocks
+AVDA	AMEX Advances Declines Volume Difference
+AVDC	CSE Advance Decline Volume Difference
+AVDE	ETFS Advances Declines Volume Difference
+AVDN	NYSE Advances Declines Volume Difference
+AVDQ	NASD Advances Declines Volume Difference
+AVDS	TSX Advance Decline Volume Difference
+AVDT	Total Advances Declines Volume Difference
+AVDU	OTC US Advance Decline Volume Difference
+AVDV	TSXV Advance Decline Volume Difference
+AVDX	CAD Total Advance Decline Volume Difference
+AVLD	AMEX Declining Volume
+AVLF	AMEX Advance Decline Volume Difference
+AVLR	AMEX Advance Decline Vol Ratio
+AVLU	AMEX Advancing Volume
+AVRA	AMEX Advance Decline Volume Ratio
+AVRC	CSE Advance Decline Volume Ratio
+AVRE	ETFS Advance Decline Volume Ratio
+AVRN	NYSE Advance Decline Volume Ratio
+AVRQ	NASD Advance Decline Volume Ratio
+AVRS	TSX Advance Decline Volume Ratio
+AVRT	Total Advance Decline Volume Ratio
+AVRU	OTC US Advance Decline Volume Ratio
+AVRV	TSXV Advance Decline Volume Ratio
+AVRX	CAD Total Advance Decline Volume Ratio
+AVVA	AMEX Advancing Volume
+AVVC	CSE Advancing Volume
+AVVE	ETFS Advancing Volume
+AVVN	NYSE Advancing Volume
+AVVQ	NASD Advancing Volume
+AVVS	TSX Advancing Volume
+AVVT	Total Advancing Volume
+AVVU	OTC US Advancing Volume
+AVVV	TSXV Advancing Volume
+AVVX	CAD Total Advancing Volume
+BANK	Nasdaq Bank
+BCMA	Barchart Market Momentum Index Advances
+BCMC	Barchart TSX Market Momentum Index
+BCMD	Barchart Market Momentum Index Declines
+BCME	Barchart TSX Market Momentum Index Advances
+BCMF	Barchart TSX Market Momentum Index Declines
+BCMG	Barchart TSX Market Momentum Index Unch
+BCMM	Barchart Market Momentum Index
+BCMU	Barchart Market Momentum Index Unch
+BDMA	Barchart Market Momentum Advances Yesterday
+BDMC	Barchart TSX Market Momentum Yesterday
+BDMD	Barchart Market Momentum Declines Yesterday
+BDME	Barchart TSX Market Momentum Advances Yesterday
+BDMF	Barchart TSX Market Momentum Declines Yesterday
+BDMG	Barchart TSX Market Momentum Unch Yesterday
+BDMM	Barchart Market Momentum Yesterday
+BDMU	Barchart Market Momentum Unch Yesterday
+BFMA	Barchart Market Momentum Advances Last Week
+BFMC	Barchart TSX Market Momentum Last Week
+BFMD	Barchart Market Momentum Declines Last Week
+BFME	Barchart TSX Market Momentum Advances Last Week
+BFMF	Barchart TSX Market Momentum Declines Last Week
+BFMG	Barchart TSX Market Momentum Unch Last Week
+BFMM	Barchart Market Momentum Last Week
+BFMU	Barchart Market Momentum Unch Last Week
+BGMA	Barchart Market Momentum Advances Last Month
+BGMC	Barchart TSX Market Momentum Last Month
+BGMD	Barchart Market Momentum Declines Last Month
+BGME	Barchart TSX Market Momentum Advances Last Month
+BGMF	Barchart TSX Market Momentum Declines Last Month
+BGMG	Barchart TSX Market Momentum Unch Last Month
+BGMM	Barchart Market Momentum Last Month
+BGMU	Barchart Market Momentum Unch Last Month
+BKX	KBW Bank Index
+BWH	POWERSHARES WILDERHILL CLEAN EN
+BXD	CBOE DJIA BUYWRITE INDEX
+BXM	CBOE BUYWRITE MONTHLY INDEX
+BXN	CBOE BUYWRITE MONTHLY INDEX
+CASH	Cash $1
+CEX	S& P Chemicals Index
+COMP	Nasdaq Composite
+CPR	Copper Index
+CYM	Claymore Yield ETF Iopv
+DCFD	Dow Comp Stocks Above 5-Day Average
+DCFI	Dow Comp Stocks Above 50-Day Average
+DCOF	Dow Comp Stocks Above 150-Day Average
+DCOH	Dow Comp Stocks Above 100-Day Average
+DCSE	Djw US Semiconductor
+DCTH	Dow Comp Stocks Above 200-Day Average
+DCTW	Dow Comp Stocks Above 20-Day Average
+DDA	DJIA VOLATILITY INDEX - OFFER S
+DDB	DJIA VOLATILITY INDEX - BID SID
+DECA	AMEX Declining Stocks
+DECC	CSE Declining Stocks
+DECE	ETFS Declining Stocks
+DECN	NYSE Declining Stocks
+DECQ	NASD Declining Stocks
+DECS	TSX Declining Stocks
+DECT	Total Declining Stocks
+DECU	OTC US Declining Stocks
+DECV	TSXV Declining Stocks
+DECX	CAD Total Declining Stocks
+DIFD	Dow Indu Stocks Above 5-Day Average
+DIFI	Dow Indu Stocks Above 50-Day Average
+DIOF	Dow Indu Stocks Above 150-Day Average
+DIOH	Dow Indu Stocks Above 100-Day Average
+DITH	Dow Indu Stocks Above 200-Day Average
+DITW	Dow Indu Stocks Above 20-Day Average
+DIVQ	NASDAQ Dividend Achievers Index
+DJC	Dow Jones Composite Average
+DJEC	DJ INTERNET COMMERCE IND
+DJI	DJ Industrial Average
+DJT	DJ Transport Average
+DJU	DJ Utility Average
+DJWO	DJ WORLD STOCK INDEX
+DJX	1/100 DJ INDUSTRIAL AVER
+DLTC	U.S. Large-Cap Technology Index
+DOWE	INDUSTRIALS EU$
+DRCI	DJ COMPREIT
+DREI	DJ EQUITYREIT
+DSAE	DJ US AERODEF
+DSAF	DJ US DELIVRYSRV
+DSAG	DJ US ASSETMNG
+DSAI	DJ US ELECEQUIP
+DSAL	DJ US ALUMINUM
+DSAM	DJ US MEDEQUIP
+DSAP	DJ US AUTOPARTS
+DSAR	DJ US AIRLINES
+DSAS	DJ US AEROSPACE
+DSAT	DJ US AUTOPARTS
+DSAU	DJ US AUTOMOBILE
+DSAV	DJ US MEDIAAGN
+DSBC	DJ US BRDCASTENT
+DSBD	DJ US BLDGMATFIX
+DSBE	DJ US BSTRNGEMP
+DSBK	DJ US BANKS
+DSBM	DJ US BASICMAT
+DSBS	DJ US BSCRSRCES
+DSBT	DJ US BIOTECHNO
+DSBV	DJ US BEVERAGES
+DSCA	DJ US GAMBLING
+DSCC	DJ US COMMCHEM
+DSCF	DJ US CLOTHACCSS
+DSCG	DJ US TRAVLEIS
+DSCH	DJ US CHEMICALS
+DSCL	DJ US COAL
+DSCM	DJ US PERSPROD
+DSCN	DJ US CONSMATRLS
+DSCP	DJ US CTNRS&PKNG
+DSCR	DJ US CMPTRHRDWR
+DSCS	DJ US SPLTYCNSRV
+DSCT	DJ US SEMICONDTR
+DSCX	DJ US SPCLTYCHEM
+DSCY	DJ US CONSUMSRV
+DSDB	DJ US BREWERS
+DSDN	DJ US DEFENSE
+DSDR	DJ US FDDRGRET
+DSDS	DJ US INSUPPLIER
+DSDT	U.S. Diversified REITs Index
+DSDV	DJ US CMPTRSRV
+DSEC	DJ US ELCCOMPEQP
+DSEE	DJ US ELECEQUP
+DSEH	U.S. Real Estate Holding & Development Index
+DSEN	DJ US OIL&GAS
+DSES	U.S. Real Estate Services Index
+DSEU	DJ US ELECTRCTY
+DSFA	DJ US FINADMIN
+DSFB	DJ US FOOD&BEV
+DSFC	DJ US FXLNTELCM
+DSFD	DJ US FOODRTWHSL
+DSFE	DJ US INDUSTMACH
+DSFH	DJ US FURNISHNG
+DSFI	DJ US FINCLSRV
+DSFN	DJ US FINANCIALS
+DSFO	DJ US FOODPRODRS
+DSFP	DJ US FOODPRDCTS
+DSFR	DJ US FORESTPAPR
+DSFT	DJ US FOOTWEAR
+DSFV	U.S. Financial Services Index
+DSGF	DJ US GENFINAN
+DSGI	DJ US GENINDUST
+DSGT	DJ US GENRETAIL
+DSGU	DJ US GASDISTRIB
+DSHB	DJ US HOMECONS
+DSHC	DJ US HLTHCARE
+DSHD	DJ US DURHLDPROD
+DSHG	DJ US HLDGOODS
+DSHI	DJ US HMIMPRETL
+DSHL	U.S. Hotel & Lodging REITs Index
+DSHN	DJ US NDURHLDPRD
+DSHP	DJ US HLTHCRPVDR
+DSHR	DJ US COMRVEHTRK
+DSHV	DJ US HVYCONS
+DSIB	DJ US INSBROKERS
+DSID	DJ US DVSFINDUS
+DSIF	DJ US FLLINEINS
+DSIG	DJ US INDGDS&SRV
+DSIL	DJ US LIFEINSUR
+DSIM	DJ US INDMETALS
+DSIN	DJ US INDSTRIALS
+DSIO	U.S. Industrial & Office REITs Index
+DSIP	DJ US PROPCASINS
+DSIQ	DJ US INDSTENGNG
+DSIR	DJ US INSURANCE
+DSIS	DJ US SUPPORTSRV
+DSIT	DJ US INDSTTRANS
+DSIU	DJ US REINSURAN
+DSIV	DJ US BUSSUPSRV
+DSIX	DJ US NLIFEINSUR
+DSLE	DJ US LEISGOODS
+DSLG	DJ US HOTELS
+DSLW	DJ US LOWCAP
+DSMC	DJ US HCREQPSRV
+DSME	DJ US MEDIA
+DSMF	DJ US MORTGFIN
+DSMG	DJ US MINING
+DSMR	U.S. Mortgage REITs Index
+DSMS	DJ US MDSUPPLIES
+DSMT	DJ US MARTRANSPT
+DSMU	DJ US MULUTILTES
+DSNC	DJ US CONSUMGDS
+DSNF	DJ US NONFERMET
+DSNG	DJ US PERHLDGDS
+DSNS	DJ US INTERNET
+DSOG	DJ US OILGAS
+DSOI	DJ US OILEQPSRV
+DSOL	DJ US INTGOILGAS
+DSOQ	DJ US OILEQPSRV
+DSOS	DJ US EXPLPROD
+DSPB	DJ US PUBLISHING
+DSPC	DJ US WSTDSPSRV
+DSPG	DJ US PERSGOODS
+DSPL	DJ US PIPELINES
+DSPM	DJ US GOLDMNG
+DSPN	DJ US PHARMBIO
+DSPP	DJ US PAPER
+DSPR	DJ US PHARMCTCLS
+DSRA	DJ US APPRLRET
+DSRB	DJ US BRDLNRET
+DSRD	DJ US DRUGRET
+DSRE	U.S. Real Estate Index
+DSRH	DJ US RESTHLDG
+DSRI	DJ US RESTINVTR
+DSRL	U.S. Retail REITs Index
+DSRN	U.S. Residential REITs Index
+DSRP	DJ US RECPRODUCT
+DSRQ	DJ US RECSERVICE
+DSRR	DJ US RAILROADS
+DSRS	DJ US SPLTYRET
+DSRT	DJ US RETAIL
+DSRU	DJ US RESTRBARS
+DSSB	DJ US INVSRV
+DSSC	DJ US SEMCNDCTRS
+DSSD	DJ US SOFTDRINKS
+DSSF	DJ US CONSUMFIN
+DSSP	DJ US SPECIALFIN
+DSSR	U.S. Specialty REITs Index
+DSST	DJ US STEEL
+DSSV	DJ US SFTCPTRSRV
+DSSW	DJ US SOFTWARE
+DSTB	DJ US TOBACCO
+DSTC	DJ US TECHNOLOGY
+DSTK	DJ US TRUCKING
+DSTL	DJ US TELECOM
+DSTP	DJ US TOPCAP
+DSTQ	DJ US TECHHRDEQ
+DSTR	DJ US TIRES
+DSTS	DJ US TRANSSRV
+DSTT	DJ US TRVLTOUR
+DSTY	DJ US TOYS
+DSUO	DJ US GASWTRMUT
+DSUT	DJ US UTILITIES
+DSVE	U.S. Conventional Electricity Index
+DSVN	DJ US DISVINTNER
+DSWC	DJ US MOBTELECOM
+DSWU	DJ US WATER
+DTCI	DJ COMPREIT TR
+DTEI	DJ EQUITYREIT TR
+DTFD	Dow Tran Stocks Above 5-Day Average
+DTFI	Dow Tran Stocks Above 50-Day Average
+DTFX	CME FX Index
+DTOF	Dow Tran Stocks Above 150-Day Average
+DTOH	Dow Tran Stocks Above 100-Day Average
+DTTH	Dow Tran Stocks Above 200-Day Average
+DTTW	Dow Tran Stocks Above 20-Day Average
+DTWC	DJ COMPAVGTR
+DTWI	DJ INDUS AVG TR
+DTWT	DJ TRANSAVGTR
+DTWU	DJ UTILITYAVGTR
+DUBS	DJ UBS COMMODITY INDEX
+DUFD	Dow Util Stocks Above 5-Day Average
+DUFI	Dow Util Stocks Above 50-Day Average
+DUOF	Dow Util Stocks Above 150-Day Average
+DUOH	Dow Util Stocks Above 100-Day Average
+DUSL	DJ US LRGCAP
+DUSM	DJ US MIDCAP
+DUSS	DJ US SMLCAP
+DUTH	Dow Util Stocks Above 200-Day Average
+DUTW	Dow Util Stocks Above 20-Day Average
+DVCA	AMEX Declining Volume
+DVCC	CSE Declining Volume
+DVCE	ETFS Declining Volume
+DVCN	NYSE Declining Volume
+DVCQ	NASD Declining Volume
+DVCS	TSX Declining Volume
+DVCT	Total Declining Volume
+DVCU	OTC US Declining Volume
+DVCV	TSXV Declining Volume
+DVCX	CAD Total Declining Volume
+DVS	S&P 500 DIVIDEND INDEX - 10X
+DWCB	DJ US BANKS TOTAL INDEX
+DXY	U.S. Dollar Index
+ESFD	S&P ESG Stocks Above 5-Day Average
+ESFI	S&P ESG Stocks Above 50-Day Average
+ESOF	S&P ESG Stocks Above 150-Day Average
+ESOH	S&P ESG Stocks Above 100-Day Average
+ESTH	S&P ESG Stocks Above 200-Day Average
+ESTW	S&P ESG Stocks Above 20-Day Average
+EVZ	CBOE EURO CURR VOL IND
+FBV	Powershrs Db G10 Fd Iopv
+FVX	5-YEAR TREASURY NOTE
+GLD	Gold Index
+GMI	Mkt Vector Gold Min Iopv
+GNX	GSCI Spot Return
+GVZ	GSTI SERVICES INDEX SETTLEMENT
+HGX	Phlx Hsg Sector Index
+HIGA	AMEX New Highs
+HIGC	CSE New Highs
+HIGD	OTC New Highs
+HIGE	ETFS New Highs
+HIGN	NYSE New Highs
+HIGQ	NASD New Highs
+HIGS	TSX New Highs
+HIGU	OTC US New Highs
+HIGV	TSXV New Highs
+HUI	AMEX Gold Bugs Index
+HVX	Mkt Vector Env Serv Iopv
+IDX	S&P 400 Midcap Index
+INDS	Nasdaq Industrial
+INSR	Nasdaq Inurance
+IQX	S&P 500 EQUAL WEIGHT
+IQZ	S&P 1000
+IRX	13-WEEK TREASURY BILL
+IVX	S&P 500 Value
+IXB	Materials Select Sector Index
+IXCO	Nasdaq Computer
+IXE	The Energy Select Sector Index
+IXF	Nasdaq Financial 100
+IXHC	NASDAQ Health Care Index
+IXI	Industrial Select Sector Index
+IXM	Financial Select Sector Index
+IXR	Consumer Staples Select Sector Index
+IXTC	Nasdaq Telecommunications
+IXU	Utilities Select Sector Index
+IXV	Healthcare Select Sector Index
+IXY	Consumer Discretionary Select Sector Index
+JX	Tsx Venture Composite Index
+KDX	KBW Finsec Dividend Yield Index
+KIX	KBW Insurance Index
+KLX	Mkt Vectors Steel Iopv
+KPX	KBW Property & Casualty Index
+KRX	KBW Regional Banking Index
+KSX	KBW Capital Markets Index
+KYX	KBW Premium Yield Equity REIT Index
+LOWA	AMEX New Lows
+LOWC	CSE New Highs
+LOWD	OTC New Lows
+LOWE	ETFS New Highs
+LOWN	NYSE New Lows
+LOWQ	NASD New Lows
+LOWS	TSX New Lows
+LOWU	OTC US New Lows
+LOWV	TSXV New Lows
+M1DA	1-Month Hi-Lo AMEX
+M1DB	1-Month Hi-Lo S&P 500 Materials
+M1DC	1-Month Hi-Lo Russell 2000
+M1DE	1-Month Hi-Lo ETFS
+M1DF	1-Month Hi-Lo S&P 500 Financials
+M1DG	1-Month Hi-Lo Russell 1000
+M1DH	1-Month Hi-Lo Price GT $10
+M1DI	1-Month Hi-Lo S&P 500 Industrials
+M1DJ	1-Month Hi-Lo S&P 500 Utilities
+M1DK	1-Month Hi-Lo S&P 500 Info Tech
+M1DL	1-Month Hi-Lo Price Lt $10
+M1DM	1-Month Hi-Lo S&P 500 Consumer Staples
+M1DN	1-Month Hi-Lo NYSE
+M1DO	1-Month Hi-Lo S&P 100
+M1DP	1-Month Hi-Lo S&P 500
+M1DQ	1-Month Hi-Lo Nasdaq
+M1DR	1-Month Hi-Lo S&P 500 Real Estate
+M1DS	1-Month Hi-Lo S&P 500 Health Care
+M1DT	1-Month Hi-Lo S&P 500 Energies
+M1DU	1-Month Hi-Lo Volume Lt 100K
+M1DV	1-Month Hi-Lo Volume GT 100K
+M1DW	1-Month Hi-Lo S&P 500 Telecom Srvs
+M1DX	1-Month Hi-Lo Overall
+M1DY	1-Month Hi-Lo S&P 500 Consumer Disc
+M1DZ	1-Month Hi-Lo Russell 3000
+M1HA	1-Month Highs AMEX
+M1HB	1-Month Highs S&P 500 Materials
+M1HC	1-Month Highs Russell 2000
+M1HE	1-Month Highs ETFS
+M1HF	1-Month Highs S&P 500 Financials
+M1HG	1-Month Highs Russell 1000
+M1HH	1-Month Highs Price GT $10
+M1HI	1-Month Highs S&P 500 Industrials
+M1HJ	1-Month Highs S&P 500 Utilities
+M1HK	1-Month Highs S&P 500 Info Tech
+M1HL	1-Month Highs Price Lt $10
+M1HM	1-Month Highs S&P 500 Consumer Staples
+M1HN	1-Month Highs NYSE
+M1HO	1-Month Highs S&P 100
+M1HP	1-Month Highs S&P 500
+M1HQ	1-Month Highs Nasdaq
+M1HR	1-Month Highs S&P 500 Real Estate
+M1HS	1-Month Highs S&P 500 Health Care
+M1HT	1-Month Highs S&P 500 Energies
+M1HU	1-Month Highs Volume Lt 100K
+M1HV	1-Month Highs Volume GT 100K
+M1HW	1-Month Highs S&P 500 Telecom Srvs
+M1HX	1-Month Highs Overall
+M1HY	1-Month Highs S&P 500 Consumer Disc
+M1HZ	1-Month Highs Russell 3000
+M1LA	1-Month Lows AMEX
+M1LB	1-Month Lows S&P 500 Materials
+M1LC	1-Month Lows Russell 2000
+M1LE	1-Month Lows ETFS
+M1LF	1-Month Lows S&P 500 Financials
+M1LG	1-Month Lows Russell 1000
+M1LH	1-Month Lows Price GT $10
+M1LI	1-Month Lows S&P 500 Industrials
+M1LJ	1-Month Lows S&P 500 Utilities
+M1LK	1-Month Lows S&P 500 Info Tech
+M1LL	1-Month Lows Price Lt $10
+M1LM	1-Month Lows S&P 500 Consumer Staples
+M1LN	1-Month Lows NYSE
+M1LO	1-Month Lows S&P 100
+M1LP	1-Month Lows S&P 500
+M1LQ	1-Month Lows Nasdaq
+M1LR	1-Month Lows S&P 500 Real Estate
+M1LS	1-Month Lows S&P 500 Health Care
+M1LT	1-Month Lows S&P 500 Energies
+M1LU	1-Month Lows Volume Lt 100K
+M1LV	1-Month Lows Volume GT 100K
+M1LW	1-Month Lows S&P 500 Telecom Srvs
+M1LX	1-Month Lows Overall
+M1LY	1-Month Lows S&P 500 Consumer Disc
+M1LZ	1-Month Lows Russell 3000
+M3DA	3-Month Hi-Lo AMEX
+M3DB	3-Month Hi-Lo S&P 500 Materials
+M3DC	3-Month Hi-Lo Russell 2000
+M3DE	3-Month Hi-Lo ETFS
+M3DF	3-Month Hi-Lo S&P 500 Financials
+M3DG	3-Month Hi-Lo Russell 1000
+M3DH	3-Month Hi-Lo Price GT $10
+M3DI	3-Month Hi-Lo S&P 500 Industrials
+M3DJ	3-Month Hi-Lo S&P 500 Utilities
+M3DK	3-Month Hi-Lo S&P 500 Info Tech
+M3DL	3-Month Hi-Lo Price Lt $10
+M3DM	3-Month Hi-Lo S&P 500 Consumer Staples
+M3DN	3-Month Hi-Lo NYSE
+M3DO	3-Month Hi-Lo S&P 100
+M3DP	3-Month Hi-Lo S&P 500
+M3DQ	3-Month Hi-Lo Nasdaq
+M3DR	3-Month Hi-Lo S&P 500 Real Estate
+M3DS	3-Month Hi-Lo S&P 500 Health Care
+M3DT	3-Month Hi-Lo S&P 500 Energies
+M3DU	3-Month Hi-Lo Volume Lt 100K
+M3DV	3-Month Hi-Lo Volume GT 100K
+M3DW	3-Month Hi-Lo S&P 500 Telecom Srvs
+M3DX	3-Month Hi-Lo Overall
+M3DY	3-Month Hi-Lo S&P 500 Consumer Disc
+M3DZ	3-Month Hi-Lo Russell 3000
+M3HA	3-Month Highs AMEX
+M3HB	3-Month Highs S&P 500 Materials
+M3HC	3-Month Highs Russell 2000
+M3HE	3-Month Highs ETFS
+M3HF	3-Month Highs S&P 500 Financials
+M3HG	3-Month Highs Russell 1000
+M3HH	3-Month Highs Price GT $10
+M3HI	3-Month Highs S&P 500 Industrials
+M3HJ	3-Month Highs S&P 500 Utilities
+M3HK	3-Month Highs S&P 500 Info Tech
+M3HL	3-Month Highs Price Lt $10
+M3HM	3-Month Highs S&P 500 Consumer Staples
+M3HN	3-Month Highs NYSE
+M3HO	3-Month Highs S&P 100
+M3HP	3-Month Highs S&P 500
+M3HQ	3-Month Highs Nasdaq
+M3HR	3-Month Highs S&P 500 Real Estate
+M3HS	3-Month Highs S&P 500 Health Care
+M3HT	3-Month Highs S&P 500 Energies
+M3HU	3-Month Highs Volume Lt 100K
+M3HV	3-Month Highs Volume GT 100K
+M3HW	3-Month Highs S&P 500 Telecom Srvs
+M3HX	3-Month Highs Overall
+M3HY	3-Month Highs S&P 500 Consumer Disc
+M3HZ	3-Month Highs Russell 3000
+M3LA	3-Month Lows AMEX
+M3LB	3-Month Lows S&P 500 Materials
+M3LC	3-Month Lows Russell 2000
+M3LE	3-Month Lows ETFS
+M3LF	3-Month Lows S&P 500 Financials
+M3LG	3-Month Lows Russell 1000
+M3LH	3-Month Lows Price GT $10
+M3LI	3-Month Lows S&P 500 Industrials
+M3LJ	3-Month Lows S&P 500 Utilities
+M3LK	3-Month Lows S&P 500 Info Tech
+M3LL	3-Month Lows Price Lt $10
+M3LM	3-Month Lows S&P 500 Consumer Staples
+M3LN	3-Month Lows NYSE
+M3LO	3-Month Lows S&P 100
+M3LP	3-Month Lows S&P 500
+M3LQ	3-Month Lows Nasdaq
+M3LR	3-Month Lows S&P 500 Real Estate
+M3LS	3-Month Lows S&P 500 Health Care
+M3LT	3-Month Lows S&P 500 Energies
+M3LU	3-Month Lows Volume Lt 100K
+M3LV	3-Month Lows Volume GT 100K
+M3LW	3-Month Lows S&P 500 Telecom Srvs
+M3LX	3-Month Lows Overall
+M3LY	3-Month Lows S&P 500 Consumer Disc
+M3LZ	3-Month Lows Russell 3000
+M5DA	5-Day Hi-Lo AMEX
+M5DB	5-Day Hi-Lo S&P 500 Materials
+M5DC	5-Day Hi-Lo Russell 2000
+M5DE	5-Day Hi-Lo ETFS
+M5DF	5-Day Hi-Lo S&P 500 Financials
+M5DG	5-Day Hi-Lo Russell 1000
+M5DH	5-Day Hi-Lo Price GT $10
+M5DI	5-Day Hi-Lo S&P 500 Industrials
+M5DJ	5-Day Hi-Lo S&P 500 Utilities
+M5DK	5-Day Hi-Lo S&P 500 Info Tech
+M5DL	5-Day Hi-Lo Price Lt $10
+M5DM	5-Day Hi-Lo S&P 500 Consumer Staples
+M5DN	5-Day Hi-Lo NYSE
+M5DO	5-Day Hi-Lo S&P 100
+M5DP	5-Day Hi-Lo S&P 500
+M5DQ	5-Day Hi-Lo Nasdaq
+M5DR	5-Day Hi-Lo S&P 500 Real Estate
+M5DS	5-Day Hi-Lo S&P 500 Health Care
+M5DT	5-Day Hi-Lo S&P 500 Energies
+M5DU	5-Day Hi-Lo Volume Lt 100K
+M5DV	5-Day Hi-Lo Volume GT 100K
+M5DW	5-Day Hi-Lo S&P 500 Telecom Srvs
+M5DX	5-Day Hi-Lo Overall
+M5DY	5-Day Hi-Lo S&P 500 Consumer Disc
+M5DZ	5-Day Hi-Lo Russell 3000
+M5HA	5-Day Highs AMEX
+M5HB	5-Day Highs S&P 500 Materials
+M5HC	5-Day Highs Russell 2000
+M5HE	5-Day Highs ETFS
+M5HF	5-Day Highs S&P 500 Financials
+M5HG	5-Day Highs Russell 1000
+M5HH	5-Day Highs Price GT $10
+M5HI	5-Day Highs S&P 500 Industrials
+M5HJ	5-Day Highs S&P 500 Utilities
+M5HK	5-Day Highs S&P 500 Info Tech
+M5HL	5-Day Highs Price Lt $10
+M5HM	5-Day Highs S&P 500 Consumer Staples
+M5HN	5-Day Highs NYSE
+M5HO	5-Day Highs S&P 100
+M5HP	5-Day Highs S&P 500
+M5HQ	5-Day Highs Nasdaq
+M5HR	5-Day Highs S&P 500 Real Estate
+M5HS	5-Day Highs S&P 500 Health Care
+M5HT	5-Day Highs S&P 500 Energies
+M5HU	5-Day Highs Volume Lt 100K
+M5HV	5-Day Highs Volume GT 100K
+M5HW	5-Day Highs S&P 500 Telecom Srvs
+M5HX	5-Day Highs Overall
+M5HY	5-Day Highs S&P 500 Consumer Disc
+M5HZ	5-Day Highs Russell 3000
+M5LA	5-Day Lows AMEX
+M5LB	5-Day Lows S&P 500 Materials
+M5LC	5-Day Lows Russell 2000
+M5LE	5-Day Lows ETFS
+M5LF	5-Day Lows S&P 500 Financials
+M5LG	5-Day Lows Russell 1000
+M5LH	5-Day Lows Price GT $10
+M5LI	5-Day Lows S&P 500 Industrials
+M5LJ	5-Day Lows S&P 500 Utilities
+M5LK	5-Day Lows S&P 500 Info Tech
+M5LL	5-Day Lows Price Lt $10
+M5LM	5-Day Lows S&P 500 Consumer Staples
+M5LN	5-Day Lows NYSE
+M5LO	5-Day Lows S&P 100
+M5LP	5-Day Lows S&P 500
+M5LQ	5-Day Lows Nasdaq
+M5LR	5-Day Lows S&P 500 Real Estate
+M5LS	5-Day Lows S&P 500 Health Care
+M5LT	5-Day Lows S&P 500 Energies
+M5LU	5-Day Lows Volume Lt 100K
+M5LV	5-Day Lows Volume GT 100K
+M5LW	5-Day Lows S&P 500 Telecom Srvs
+M5LX	5-Day Lows Overall
+M5LY	5-Day Lows S&P 500 Consumer Disc
+M5LZ	5-Day Lows Russell 3000
+M6DA	6-Month Hi-Lo AMEX
+M6DB	6-Month Hi-Lo S&P 500 Materials
+M6DC	6-Month Hi-Lo Russell 2000
+M6DE	6-Month Hi-Lo ETFS
+M6DF	6-Month Hi-Lo S&P 500 Financials
+M6DG	6-Month Hi-Lo Russell 1000
+M6DH	6-Month Hi-Lo Price GT $10
+M6DI	6-Month Hi-Lo S&P 500 Industrials
+M6DJ	6-Month Hi-Lo S&P 500 Utilities
+M6DK	6-Month Hi-Lo S&P 500 Info Tech
+M6DL	6-Month Hi-Lo Price Lt $10
+M6DM	6-Month Hi-Lo S&P 500 Consumer Staples
+M6DN	6-Month Hi-Lo NYSE
+M6DO	6-Month Hi-Lo S&P 100
+M6DP	6-Month Hi-Lo S&P 500
+M6DQ	6-Month Hi-Lo Nasdaq
+M6DR	6-Month Hi-Lo S&P 500 Real Estate
+M6DS	6-Month Hi-Lo S&P 500 Health Care
+M6DT	6-Month Hi-Lo S&P 500 Energies
+M6DU	6-Month Hi-Lo Volume Lt 100K
+M6DV	6-Month Hi-Lo Volume GT 100K
+M6DW	6-Month Hi-Lo S&P 500 Telecom Srvs
+M6DX	6-Month Hi-Lo Overall
+M6DY	6-Month Hi-Lo S&P 500 Consumer Disc
+M6DZ	6-Month Hi-Lo Russell 3000
+M6HA	6-Month Highs AMEX
+M6HB	6-Month Highs S&P 500 Materials
+M6HC	6-Month Highs Russell 2000
+M6HE	6-Month Highs ETFS
+M6HF	6-Month Highs S&P 500 Financials
+M6HG	6-Month Highs Russell 1000
+M6HH	6-Month Highs Price GT $10
+M6HI	6-Month Highs S&P 500 Industrials
+M6HJ	6-Month Highs S&P 500 Utilities
+M6HK	6-Month Highs S&P 500 Info Tech
+M6HL	6-Month Highs Price Lt $10
+M6HM	6-Month Highs S&P 500 Consumer Staples
+M6HN	6-Month Highs NYSE
+M6HO	6-Month Highs S&P 100
+M6HP	6-Month Highs S&P 500
+M6HQ	6-Month Highs Nasdaq
+M6HR	6-Month Highs S&P 500 Real Estate
+M6HS	6-Month Highs S&P 500 Health Care
+M6HT	6-Month Highs S&P 500 Energies
+M6HU	6-Month Highs Volume Lt 100K
+M6HV	6-Month Highs Volume GT 100K
+M6HW	6-Month Highs S&P 500 Telecom Srvs
+M6HX	6-Month Highs Overall
+M6HY	6-Month Highs S&P 500 Consumer Disc
+M6HZ	6-Month Highs Russell 3000
+M6LA	6-Month Lows AMEX
+M6LB	6-Month Lows S&P 500 Materials
+M6LC	6-Month Lows Russell 2000
+M6LE	6-Month Lows ETFS
+M6LF	6-Month Lows S&P 500 Financials
+M6LG	6-Month Lows Russell 1000
+M6LH	6-Month Lows Price GT $10
+M6LI	6-Month Lows S&P 500 Industrials
+M6LJ	6-Month Lows S&P 500 Utilities
+M6LK	6-Month Lows S&P 500 Info Tech
+M6LL	6-Month Lows Price Lt $10
+M6LM	6-Month Lows S&P 500 Consumer Staples
+M6LN	6-Month Lows NYSE
+M6LO	6-Month Lows S&P 100
+M6LP	6-Month Lows S&P 500
+M6LQ	6-Month Lows Nasdaq
+M6LR	6-Month Lows S&P 500 Real Estate
+M6LS	6-Month Lows S&P 500 Health Care
+M6LT	6-Month Lows S&P 500 Energies
+M6LU	6-Month Lows Volume Lt 100K
+M6LV	6-Month Lows Volume GT 100K
+M6LW	6-Month Lows S&P 500 Telecom Srvs
+M6LX	6-Month Lows Overall
+M6LY	6-Month Lows S&P 500 Consumer Disc
+M6LZ	6-Month Lows Russell 3000
+MADA	52-Week Hi-Lo AMEX
+MADB	52-Week Hi-Lo S&P 500 Materials
+MADC	52-Week Hi-Lo Russell 2000
+MADE	52-Week Hi-Lo ETFS
+MADF	52-Week Hi-Lo S&P 500 Financials
+MADG	52-Week Hi-Lo Russell 1000
+MADH	52-Week Hi-Lo Price GT $10
+MADI	52-Week Hi-Lo S&P 500 Industrials
+MADJ	52-Week Hi-Lo S&P 500 Utilities
+MADK	52-Week Hi-Lo S&P 500 Info Tech
+MADL	52-Week Hi-Lo Price Lt $10
+MADM	52-Week Hi-Lo S&P 500 Consumer Staples
+MADN	52-Week Hi-Lo NYSE
+MADO	52-Week Hi-Lo S&P 100
+MADP	52-Week Hi-Lo S&P 500
+MADQ	52-Week Hi-Lo Nasdaq
+MADR	52-Week Hi-Lo S&P 500 Real Estate
+MADS	52-Week Hi-Lo S&P 500 Health Care
+MADT	52-Week Hi-Lo S&P 500 Energies
+MADU	52-Week Hi-Lo Volume Lt 100K
+MADV	52-Week Hi-Lo Volume GT 100K
+MADW	52-Week Hi-Lo S&P 500 Telecom Srvs
+MADX	52-Week Hi-Lo Overall
+MADY	52-Week Hi-Lo S&P 500 Consumer Disc
+MADZ	52-Week Hi-Lo Russell 3000
+MAHA	52-Week Highs AMEX
+MAHB	52-Week Highs S&P 500 Materials
+MAHC	52-Week Highs Russell 2000
+MAHE	52-Week Highs ETFS
+MAHF	52-Week Highs S&P 500 Financials
+MAHG	52-Week Highs Russell 1000
+MAHH	52-Week Highs Price GT $10
+MAHI	52-Week Highs S&P 500 Industrials
+MAHJ	52-Week Highs S&P 500 Utilities
+MAHK	52-Week Highs S&P 500 Info Tech
+MAHL	52-Week Highs Price Lt $10
+MAHM	52-Week Highs S&P 500 Consumer Staples
+MAHN	52-Week Highs NYSE
+MAHO	52-Week Highs S&P 100
+MAHP	52-Week Highs S&P 500
+MAHQ	52-Week Highs Nasdaq
+MAHR	52-Week Highs S&P 500 Real Estate
+MAHS	52-Week Highs S&P 500 Health Care
+MAHT	52-Week Highs S&P 500 Energies
+MAHU	52-Week Highs Volume Lt 100K
+MAHV	52-Week Highs Volume GT 100K
+MAHW	52-Week Highs S&P 500 Telecom Srvs
+MAHX	52-Week Highs Overall
+MAHY	52-Week Highs S&P 500 Consumer Disc
+MAHZ	52-Week Highs Russell 3000
+MALA	52-Week Lows AMEX
+MALB	52-Week Lows S&P 500 Materials
+MALC	52-Week Lows Russell 2000
+MALE	52-Week Lows ETFS
+MALF	52-Week Lows S&P 500 Financials
+MALG	52-Week Lows Russell 1000
+MALH	52-Week Lows Price GT $10
+MALI	52-Week Lows S&P 500 Industrials
+MALJ	52-Week Lows S&P 500 Utilities
+MALK	52-Week Lows S&P 500 Info Tech
+MALL	52-Week Lows Price Lt $10
+MALM	52-Week Lows S&P 500 Consumer Staples
+MALN	52-Week Lows NYSE
+MALO	52-Week Lows S&P 100
+MALP	52-Week Lows S&P 500
+MALQ	52-Week Lows Nasdaq
+MALR	52-Week Lows S&P 500 Real Estate
+MALS	52-Week Lows S&P 500 Health Care
+MALT	52-Week Lows S&P 500 Energies
+MALU	52-Week Lows Volume Lt 100K
+MALV	52-Week Lows Volume GT 100K
+MALW	52-Week Lows S&P 500 Telecom Srvs
+MALX	52-Week Lows Overall
+MALY	52-Week Lows S&P 500 Consumer Disc
+MALZ	52-Week Lows Russell 3000
+MMFD	Percent of Stocks Above 5-Day Average
+MMFI	Percent of Stocks Above 50-Day Average
+MMOF	Percent of Stocks Above 150-Day Average
+MMOH	Percent of Stocks Above 100-Day Average
+MMTH	Percent of Stocks Above 200-Day Average
+MMTW	Percent of Stocks Above 20-Day Average
+MNFD	Percent Above 5-Day Average Yesterday
+MNFI	Percent Above 50-Day Average Yesterday
+MNOF	Percent Above 150-Day Average Yesterday
+MNOH	Percent Above 100-Day Average Yesterday
+MNTH	Percent Above 200-Day Average Yesterday
+MNTW	Percent Above 20-Day Average Yesterday
+MOFD	Percent Above 5-Day Average Last Week
+MOFI	Percent Above 50-Day Average Last Week
+MOOF	Percent Above 150-Day Average Last Week
+MOOH	Percent Above 100-Day Average Last Week
+MOTH	Percent Above 200-Day Average Last Week
+MOTW	Percent Above 20-Day Average Last Week
+MPFD	Percent Above 5-Day Average Last Month
+MPFI	Percent Above 50-Day Average Last Month
+MPOF	Percent Above 150-Day Average Last Month
+MPOH	Percent Above 100-Day Average Last Month
+MPTH	Percent Above 200-Day Average Last Month
+MPTW	Percent Above 20-Day Average Last Month
+MTFD	TSX Percent of Stocks Above 5-Day Average
+MTFI	TSX Percent of Stocks Above 50-Day Average
+MTOF	TSX Percent of Stocks Above 150-Day Average
+MTOH	TSX Percent of Stocks Above 100-Day Average
+MTTH	TSX Percent of Stocks Above 200-Day Average
+MTTW	TSX Percent of Stocks Above 20-Day Average
+MUFD	TSX Percent Above 5-Day Average Yesterday
+MUFI	TSX Percent Above 50-Day Average Yesterday
+MUOF	TSX Percent Above 150-Day Average Yesterday
+MUOH	TSX Percent Above 100-Day Average Yesterday
+MUTH	TSX Percent Above 200-Day Average Yesterday
+MUTW	TSX Percent Above 20-Day Average Yesterday
+MVFD	TSX Percent Above 5-Day Average Last Week
+MVFI	TSX Percent Above 50-Day Average Last Week
+MVOF	TSX Percent Above 150-Day Average Last Week
+MVOH	TSX Percent Above 100-Day Average Last Week
+MVTH	TSX Percent Above 200-Day Average Last Week
+MVTW	TSX Percent Above 20-Day Average Last Week
+MWFD	TSX Percent Above 5-Day Average Last Month
+MWFI	TSX Percent Above 50-Day Average Last Month
+MWOF	TSX Percent Above 150-Day Average Last Month
+MWOH	TSX Percent Above 100-Day Average Last Month
+MWTH	TSX Percent Above 200-Day Average Last Month
+MWTW	TSX Percent Above 20-Day Average Last Month
+MYDA	YTD Hi-Lo AMEX
+MYDB	YTD Hi-Lo S&P 500 Materials
+MYDC	YTD Hi-Lo Russell 2000
+MYDE	YTD Hi-Lo ETFS
+MYDF	YTD Hi-Lo S&P 500 Financials
+MYDG	YTD Hi-Lo Russell 1000
+MYDH	YTD Hi-Lo Price GT $10
+MYDI	YTD Hi-Lo S&P 500 Industrials
+MYDJ	YTD Hi-Lo S&P 500 Utilities
+MYDK	YTD Hi-Lo S&P 500 Info Tech
+MYDL	YTD Hi-Lo Price Lt $10
+MYDM	YTD Hi-Lo S&P 500 Consumer Staples
+MYDN	YTD Hi-Lo NYSE
+MYDO	YTD Hi-Lo S&P 100
+MYDP	YTD Hi-Lo S&P 500
+MYDQ	YTD Hi-Lo Nasdaq
+MYDR	YTD Hi-Lo S&P 500 Real Estate
+MYDS	YTD Hi-Lo S&P 500 Health Care
+MYDT	YTD Hi-Lo S&P 500 Energies
+MYDU	YTD Hi-Lo Volume Lt 100K
+MYDV	YTD Hi-Lo Volume GT 100K
+MYDW	YTD Hi-Lo S&P 500 Telecom Srvs
+MYDX	YTD Hi-Lo Overall
+MYDY	YTD Hi-Lo S&P 500 Consumer Disc
+MYDZ	YTD Hi-Lo Russell 3000
+MYHA	YTD Highs AMEX
+MYHB	YTD Highs S&P 500 Materials
+MYHC	YTD Highs Russell 2000
+MYHE	YTD Highs ETFS
+MYHF	YTD Highs S&P 500 Financials
+MYHG	YTD Highs Russell 1000
+MYHH	YTD Highs Price GT $10
+MYHI	YTD Highs S&P 500 Industrials
+MYHJ	YTD Highs S&P 500 Utilities
+MYHK	YTD Highs S&P 500 Info Tech
+MYHL	YTD Highs Price Lt $10
+MYHM	YTD Highs S&P 500 Consumer Staples
+MYHN	YTD Highs NYSE
+MYHO	YTD Highs S&P 100
+MYHP	YTD Highs S&P 500
+MYHQ	YTD Highs Nasdaq
+MYHR	YTD Highs S&P 500 Real Estate
+MYHS	YTD Highs S&P 500 Health Care
+MYHT	YTD Highs S&P 500 Energies
+MYHU	YTD Highs Volume Lt 100K
+MYHV	YTD Highs Volume GT 100K
+MYHW	YTD Highs S&P 500 Telecom Srvs
+MYHX	YTD Highs Overall
+MYHY	YTD Highs S&P 500 Consumer Disc
+MYHZ	YTD Highs Russell 3000
+MYLA	YTD Lows AMEX
+MYLB	YTD Lows S&P 500 Materials
+MYLC	YTD Lows Russell 2000
+MYLE	YTD Lows ETFS
+MYLF	YTD Lows S&P 500 Financials
+MYLG	YTD Lows Russell 1000
+MYLH	YTD Lows Price GT $10
+MYLI	YTD Lows S&P 500 Industrials
+MYLJ	YTD Lows S&P 500 Utilities
+MYLK	YTD Lows S&P 500 Info Tech
+MYLL	YTD Lows Price Lt $10
+MYLM	YTD Lows S&P 500 Consumer Staples
+MYLN	YTD Lows NYSE
+MYLO	YTD Lows S&P 100
+MYLP	YTD Lows S&P 500
+MYLQ	YTD Lows Nasdaq
+MYLR	YTD Lows S&P 500 Real Estate
+MYLS	YTD Lows S&P 500 Health Care
+MYLT	YTD Lows S&P 500 Energies
+MYLU	YTD Lows Volume Lt 100K
+MYLV	YTD Lows Volume GT 100K
+MYLW	YTD Lows S&P 500 Telecom Srvs
+MYLX	YTD Lows Overall
+MYLY	YTD Lows S&P 500 Consumer Disc
+MYLZ	YTD Lows Russell 3000
+N1DA	1-Month Hi-Lo S&P 600
+N1DB	1-Month Hi-Lo S&P 400
+N1DC	1-Month Hi-Lo Nasdaq 100
+N1DD	1-Month Hi-Lo Dow Indu
+N1DE	1-Month Hi-Lo Dow Comp
+N1DF	1-Month Hi-Lo Dow Tran
+N1DG	1-Month Hi-Lo Dow Util
+N1DH	1-Month Hi-Lo TSX Comp
+N1DI	1-Month Hi-Lo TSX 60
+N1DJ	1-Month Hi-Lo TSX Venture
+N1DK	1-Month Hi-Lo TSX
+N1DL	1-Month Hi-Lo TSXV
+N1DM	1-Month Hi-Lo CSE
+N1DN	1-Month Hi-Lo Canada
+N1DO	1-Month Hi-Lo Nasdaq Comp
+N1DP	1-Month Hi-Lo CAD ETFS
+N1DU	1-Month Hi-Lo OTC US
+N1DV	1-Month Hi-Lo S&P ESG
+N1HA	1-Month Highs S&P 600
+N1HB	1-Month Highs S&P 400
+N1HC	1-Month Highs Nasdaq 100
+N1HD	1-Month Highs Dow Indu
+N1HE	1-Month Highs Dow Comp
+N1HF	1-Month Highs Dow Tran
+N1HG	1-Month Highs Dow Util
+N1HH	1-Month Highs TSX Comp
+N1HI	1-Month Highs TSX 60
+N1HJ	1-Month Highs TSX Venture
+N1HK	1-Month Highs TSX
+N1HL	1-Month Highs TSXV
+N1HM	1-Month Highs CSE
+N1HN	1-Month Highs Canada
+N1HO	1-Month Highs Nasdaq Comp
+N1HP	1-Month Highs CAD ETFS
+N1HU	1-Month Highs OTC US
+N1HV	1-Month Highs S&P ESG
+N1LA	1-Month Lows S&P 600
+N1LB	1-Month Lows S&P 400
+N1LC	1-Month Lows Nasdaq 100
+N1LD	1-Month Lows Dow Indu
+N1LE	1-Month Lows Dow Comp
+N1LF	1-Month Lows Dow Tran
+N1LG	1-Month Lows Dow Util
+N1LH	1-Month Lows TSX Comp
+N1LI	1-Month Lows TSX 60
+N1LJ	1-Month Lows TSX Venture
+N1LK	1-Month Lows TSX
+N1LL	1-Month Lows TSXV
+N1LM	1-Month Lows CSE
+N1LN	1-Month Lows Canada
+N1LO	1-Month Lows Nasdaq Comp
+N1LP	1-Month Lows CAD ETFS
+N1LU	1-Month Lows OTC US
+N1LV	1-Month Lows S&P ESG
+N3DA	3-Month Hi-Lo S&P 600
+N3DB	3-Month Hi-Lo S&P 400
+N3DC	3-Month Hi-Lo Nasdaq 100
+N3DD	3-Month Hi-Lo Dow Indu
+N3DE	3-Month Hi-Lo Dow Comp
+N3DF	3-Month Hi-Lo Dow Tran
+N3DG	3-Month Hi-Lo Dow Util
+N3DH	3-Month Hi-Lo TSX Comp
+N3DI	3-Month Hi-Lo TSX 60
+N3DJ	3-Month Hi-Lo TSX Venture
+N3DK	3-Month Hi-Lo TSX
+N3DL	3-Month Hi-Lo TSXV
+N3DM	3-Month Hi-Lo CSE
+N3DN	3-Month Hi-Lo Canada
+N3DO	3-Month Hi-Lo Nasdaq Comp
+N3DP	3-Month Hi-Lo CAD ETFS
+N3DU	3-Month Hi-Lo OTC US
+N3DV	3-Month Hi-Lo S&P ESG
+N3HA	3-Month Highs S&P 600
+N3HB	3-Month Highs S&P 400
+N3HC	3-Month Highs Nasdaq 100
+N3HD	3-Month Highs Dow Indu
+N3HE	3-Month Highs Dow Comp
+N3HF	3-Month Highs Dow Tran
+N3HG	3-Month Highs Dow Util
+N3HH	3-Month Highs TSX Comp
+N3HI	3-Month Highs TSX 60
+N3HJ	3-Month Highs TSX Venture
+N3HK	3-Month Highs TSX
+N3HL	3-Month Highs TSXV
+N3HM	3-Month Highs CSE
+N3HN	3-Month Highs Canada
+N3HO	3-Month Highs Nasdaq Comp
+N3HP	3-Month Highs CAD ETFS
+N3HU	3-Month Highs OTC US
+N3HV	3-Month Highs S&P ESG
+N3LA	3-Month Lows S&P 600
+N3LB	3-Month Lows S&P 400
+N3LC	3-Month Lows Nasdaq 100
+N3LD	3-Month Lows Dow Indu
+N3LE	3-Month Lows Dow Comp
+N3LF	3-Month Lows Dow Tran
+N3LG	3-Month Lows Dow Util
+N3LH	3-Month Lows TSX Comp
+N3LI	3-Month Lows TSX 60
+N3LJ	3-Month Lows TSX Venture
+N3LK	3-Month Lows TSX
+N3LL	3-Month Lows TSXV
+N3LM	3-Month Lows CSE
+N3LN	3-Month Lows Canada
+N3LO	3-Month Lows Nasdaq Comp
+N3LP	3-Month Lows CAD ETFS
+N3LU	3-Month Lows OTC US
+N3LV	3-Month Lows S&P ESG
+N5DA	5-Day Hi-Lo S&P 600
+N5DB	5-Day Hi-Lo S&P 400
+N5DC	5-Day Hi-Lo Nasdaq 100
+N5DD	5-Day Hi-Lo Dow Indu
+N5DE	5-Day Hi-Lo Dow Comp
+N5DF	5-Day Hi-Lo Dow Tran
+N5DG	5-Day Hi-Lo Dow Util
+N5DH	5-Day Hi-Lo TSX Comp
+N5DI	5-Day Hi-Lo TSX 60
+N5DJ	5-Day Hi-Lo TSX Venture
+N5DK	5-Day Hi-Lo TSX
+N5DL	5-Day Hi-Lo TSXV
+N5DM	5-Day Hi-Lo CSE
+N5DN	5-Day Hi-Lo Canada
+N5DO	5-Day Hi-Lo Nasdaq Comp
+N5DP	5-Day Hi-Lo CAD ETFS
+N5DU	5-Day Hi-Lo OTC US
+N5DV	5-Day Hi-Lo S&P ESG
+N5HA	5-Day Highs S&P 600
+N5HB	5-Day Highs S&P 400
+N5HC	5-Day Highs Nasdaq 100
+N5HD	5-Day Highs Dow Indu
+N5HE	5-Day Highs Dow Comp
+N5HF	5-Day Highs Dow Tran
+N5HG	5-Day Highs Dow Util
+N5HH	5-Day Highs TSX Comp
+N5HI	5-Day Highs TSX 60
+N5HJ	5-Day Highs TSX Venture
+N5HK	5-Day Highs TSX
+N5HL	5-Day Highs TSXV
+N5HM	5-Day Highs CSE
+N5HN	5-Day Highs Canada
+N5HO	5-Day Highs Nasdaq Comp
+N5HP	5-Day Highs CAD ETFS
+N5HU	5-Day Highs OTC US
+N5HV	5-Day Highs S&P ESG
+N5LA	5-Day Lows S&P 600
+N5LB	5-Day Lows S&P 400
+N5LC	5-Day Lows Nasdaq 100
+N5LD	5-Day Lows Dow Indu
+N5LE	5-Day Lows Dow Comp
+N5LF	5-Day Lows Dow Tran
+N5LG	5-Day Lows Dow Util
+N5LH	5-Day Lows TSX Comp
+N5LI	5-Day Lows TSX 60
+N5LJ	5-Day Lows TSX Venture
+N5LK	5-Day Lows TSX
+N5LL	5-Day Lows TSXV
+N5LM	5-Day Lows CSE
+N5LN	5-Day Lows Canada
+N5LO	5-Day Lows Nasdaq Comp
+N5LP	5-Day Lows CAD ETFS
+N5LU	5-Day Lows OTC US
+N5LV	5-Day Lows S&P ESG
+N6DA	6-Month Hi-Lo S&P 600
+N6DB	6-Month Hi-Lo S&P 400
+N6DC	6-Month Hi-Lo Nasdaq 100
+N6DD	6-Month Hi-Lo Dow Indu
+N6DE	6-Month Hi-Lo Dow Comp
+N6DF	6-Month Hi-Lo Dow Tran
+N6DG	6-Month Hi-Lo Dow Util
+N6DH	6-Month Hi-Lo TSX Comp
+N6DI	6-Month Hi-Lo TSX 60
+N6DJ	6-Month Hi-Lo TSX Venture
+N6DK	6-Month Hi-Lo TSX
+N6DL	6-Month Hi-Lo TSXV
+N6DM	6-Month Hi-Lo CSE
+N6DN	6-Month Hi-Lo Canada
+N6DO	6-Month Hi-Lo Nasdaq Comp
+N6DP	6-Month Hi-Lo CAD ETFS
+N6DU	6-Month Hi-Lo OTC US
+N6DV	6-Month Hi-Lo S&P ESG
+N6HA	6-Month Highs S&P 600
+N6HB	6-Month Highs S&P 400
+N6HC	6-Month Highs Nasdaq 100
+N6HD	6-Month Highs Dow Indu
+N6HE	6-Month Highs Dow Comp
+N6HF	6-Month Highs Dow Tran
+N6HG	6-Month Highs Dow Util
+N6HH	6-Month Highs TSX Comp
+N6HI	6-Month Highs TSX 60
+N6HJ	6-Month Highs TSX Venture
+N6HK	6-Month Highs TSX
+N6HL	6-Month Highs TSXV
+N6HM	6-Month Highs CSE
+N6HN	6-Month Highs Canada
+N6HO	6-Month Highs Nasdaq Comp
+N6HP	6-Month Highs CAD ETFS
+N6HU	6-Month Highs OTC US
+N6HV	6-Month Highs S&P ESG
+N6LA	6-Month Lows S&P 600
+N6LB	6-Month Lows S&P 400
+N6LC	6-Month Lows Nasdaq 100
+N6LD	6-Month Lows Dow Indu
+N6LE	6-Month Lows Dow Comp
+N6LF	6-Month Lows Dow Tran
+N6LG	6-Month Lows Dow Util
+N6LH	6-Month Lows TSX Comp
+N6LI	6-Month Lows TSX 60
+N6LJ	6-Month Lows TSX Venture
+N6LK	6-Month Lows TSX
+N6LL	6-Month Lows TSXV
+N6LM	6-Month Lows CSE
+N6LN	6-Month Lows Canada
+N6LO	6-Month Lows Nasdaq Comp
+N6LP	6-Month Lows CAD ETFS
+N6LU	6-Month Lows OTC US
+N6LV	6-Month Lows S&P ESG
+NADA	52-Week Hi-Lo S&P 600
+NADB	52-Week Hi-Lo S&P 400
+NADC	52-Week Hi-Lo Nasdaq 100
+NADD	52-Week Hi-Lo Dow Indu
+NADE	52-Week Hi-Lo Dow Comp
+NADF	52-Week Hi-Lo Dow Tran
+NADG	52-Week Hi-Lo Dow Util
+NADH	52-Week Hi-Lo TSX Comp
+NADI	52-Week Hi-Lo TSX 60
+NADJ	52-Week Hi-Lo TSX Venture
+NADK	52-Week Hi-Lo TSX
+NADL	52-Week Hi-Lo TSXV
+NADM	52-Week Hi-Lo CSE
+NADN	52-Week Hi-Lo Canada
+NADO	52-Week Hi-Lo Nasdaq Comp
+NADP	52-Week Hi-Lo CAD ETFS
+NADU	52-Week Hi-Lo OTC US
+NADV	52-Week Hi-Lo S&P ESG
+NAHA	52-Week Highs S&P 600
+NAHB	52-Week Highs S&P 400
+NAHC	52-Week Highs Nasdaq 100
+NAHD	52-Week Highs Dow Indu
+NAHE	52-Week Highs Dow Comp
+NAHF	52-Week Highs Dow Tran
+NAHG	52-Week Highs Dow Util
+NAHH	52-Week Highs TSX Comp
+NAHI	52-Week Highs TSX 60
+NAHJ	52-Week Highs TSX Venture
+NAHK	52-Week Highs TSX
+NAHL	52-Week Highs TSXV
+NAHM	52-Week Highs CSE
+NAHN	52-Week Highs Canada
+NAHO	52-Week Highs Nasdaq Comp
+NAHP	52-Week Highs CAD ETFS
+NAHU	52-Week Highs OTC US
+NAHV	52-Week Highs S&P ESG
+NALA	52-Week Lows S&P 600
+NALB	52-Week Lows S&P 400
+NALC	52-Week Lows Nasdaq 100
+NALD	52-Week Lows Dow Indu
+NALE	52-Week Lows Dow Comp
+NALF	52-Week Lows Dow Tran
+NALG	52-Week Lows Dow Util
+NALH	52-Week Lows TSX Comp
+NALI	52-Week Lows TSX 60
+NALJ	52-Week Lows TSX Venture
+NALK	52-Week Lows TSX
+NALL	52-Week Lows TSXV
+NALM	52-Week Lows CSE
+NALN	52-Week Lows Canada
+NALO	52-Week Lows Nasdaq Comp
+NALP	52-Week Lows CAD ETFS
+NALU	52-Week Lows OTC US
+NALV	52-Week Lows S&P ESG
+NAST	NASDAQ Transportation Index
+NBI	Nasdaq Biotechnology
+NCFD	Nasdaq Comp Stocks Above 5-Day Average
+NCFI	Nasdaq Comp Stocks Above 50-Day Average
+NCOF	Nasdaq Comp Stocks Above 150-Day Average
+NCOH	Nasdaq Comp Stocks Above 100-Day Average
+NCTH	Nasdaq Comp Stocks Above 200-Day Average
+NCTW	Nasdaq Comp Stocks Above 20-Day Average
+NDFD	Nasdaq 100 Stocks Above 5-Day Average
+NDFI	Nasdaq 100 Stocks Above 50-Day Average
+NDOF	Nasdaq 100 Stocks Above 150-Day Average
+NDOH	Nasdaq 100 Stocks Above 100-Day Average
+NDTH	Nasdaq 100 Stocks Above 200-Day Average
+NDTW	Nasdaq 100 Stocks Above 20-Day Average
+NDXE	NASDAQ 100 Equal Weighted
+NDXT	NASDAQ 100 TECHNOLOGY
+NDXX	NASDAQ-100 Ex-Tech Sector Index
+NDY	Nasdaq 100
+NQGM	Ndaq Global Market Composite
+NQGS	NASDAQ Global Select Market Composite Index
+NSHD	NYSE Declining Stocks
+NSHF	NYSE Advances - Declines
+NSHR	NYSE Advance Decline Ratio
+NSHU	NYSE Advancing Stocks
+NVLD	NYSE Declining Volume
+NVLF	NYSE Advance Decline Volume Difference
+NVLR	NYSE Advance Decline Vol Ratio
+NVLU	NYSE Advancing Volume
+NXTQ	NASDAQ Q-50 Index
+NYA	NYSE Composite
+NYDA	YTD Hi-Lo S&P 600
+NYDB	YTD Hi-Lo S&P 400
+NYDC	YTD Hi-Lo Nasdaq 100
+NYDD	YTD Hi-Lo Dow Indu
+NYDE	YTD Hi-Lo Dow Comp
+NYDF	YTD Hi-Lo Dow Tran
+NYDG	YTD Hi-Lo Dow Util
+NYDH	YTD Hi-Lo TSX Comp
+NYDI	YTD Hi-Lo TSX 60
+NYDJ	YTD Hi-Lo TSX Venture
+NYDK	YTD Hi-Lo TSX
+NYDL	YTD Hi-Lo TSXV
+NYDM	YTD Hi-Lo CSE
+NYDN	YTD Hi-Lo Canada
+NYDO	YTD Hi-Lo Nasdaq Comp
+NYDP	YTD Hi-Lo CAD ETFS
+NYDU	YTD Hi-Lo OTC US
+NYDV	YTD Hi-Lo S&P ESG
+NYHA	YTD Highs S&P 600
+NYHB	YTD Highs S&P 400
+NYHC	YTD Highs Nasdaq 100
+NYHD	YTD Highs Dow Indu
+NYHE	YTD Highs Dow Comp
+NYHF	YTD Highs Dow Tran
+NYHG	YTD Highs Dow Util
+NYHH	YTD Highs TSX Comp
+NYHI	YTD Highs TSX 60
+NYHJ	YTD Highs TSX Venture
+NYHK	YTD Highs TSX
+NYHL	YTD Highs TSXV
+NYHM	YTD Highs CSE
+NYHN	YTD Highs Canada
+NYHO	YTD Highs Nasdaq Comp
+NYHP	YTD Highs CAD ETFS
+NYHU	YTD Highs OTC US
+NYHV	YTD Highs S&P ESG
+NYLA	YTD Lows S&P 600
+NYLB	YTD Lows S&P 400
+NYLC	YTD Lows Nasdaq 100
+NYLD	YTD Lows Dow Indu
+NYLE	YTD Lows Dow Comp
+NYLF	YTD Lows Dow Tran
+NYLG	YTD Lows Dow Util
+NYLH	YTD Lows TSX Comp
+NYLI	YTD Lows TSX 60
+NYLJ	YTD Lows TSX Venture
+NYLK	YTD Lows TSX
+NYLL	YTD Lows TSXV
+NYLM	YTD Lows CSE
+NYLN	YTD Lows Canada
+NYLO	YTD Lows Nasdaq Comp
+NYLP	YTD Lows CAD ETFS
+NYLU	YTD Lows OTC US
+NYLV	YTD Lows S&P ESG
+OEX	S&P 100 Index
+OFIN	Nasdaq Other Financial Index
+OILBR	Crude Oil Brent NYMEX
+OILSW	Crude Oil Light Sweet NYMEX
+ONE	S&P 100 Index
+OSX	Phlx Euro Style Oil Svc Index
+OVX	CBOE CRUDE OIL VOLATILITY INDEX
+PLD	Palladium Index
+PLT	Platinum Index
+QSHD	NASD Declining Stocks
+QSHF	NASD Advances - Declines
+QSHR	NASD Advance Decline Ratio
+QSHU	NASD Advancing Stocks
+QVLD	NASD Declining Volume
+QVLF	NASD Advance Decline Volume Difference
+QVLR	NASD Advance Decline Vol Ratio
+QVLU	NASD Advancing Volume
+R1FD	Russell 1000 Stocks Above 5-Day Average
+R1FI	Russell 1000 Stocks Above 50-Day Average
+R1OF	Russell 1000 Stocks Above 150-Day Average
+R1OH	Russell 1000 Stocks Above 100-Day Average
+R1TH	Russell 1000 Stocks Above 200-Day Average
+R1TW	Russell 1000 Stocks Above 20-Day Average
+R2FD	Russell 2000 Stocks Above 5-Day Average
+R2FI	Russell 2000 Stocks Above 50-Day Average
+R2OF	Russell 2000 Stocks Above 150-Day Average
+R2OH	Russell 2000 Stocks Above 100-Day Average
+R2TH	Russell 2000 Stocks Above 200-Day Average
+R2TW	Russell 2000 Stocks Above 20-Day Average
+R3FD	Russell 3000 Stocks Above 5-Day Average
+R3FI	Russell 3000 Stocks Above 50-Day Average
+R3OF	Russell 3000 Stocks Above 150-Day Average
+R3OH	Russell 3000 Stocks Above 100-Day Average
+R3TH	Russell 3000 Stocks Above 200-Day Average
+R3TW	Russell 3000 Stocks Above 20-Day Average
+RTCM	Tsx Income Trust Index
+RTRE	Tsx Reit Capped Index
+S1FD	S&P 100 Stocks Above 5-Day Average
+S1FI	S&P 100 Stocks Above 50-Day Average
+S1OF	S&P 100 Stocks Above 150-Day Average
+S1OH	S&P 100 Stocks Above 100-Day Average
+S1TH	S&P 100 Stocks Above 200-Day Average
+S1TR	S&P 500 Automobiles & Components [TR]
+S1TW	S&P 100 Stocks Above 20-Day Average
+S2TR	S&P 500 Banks [TR]
+S3TR	S&P 500 Capital Goods [TR]
+S4FD	S&P 400 Stocks Above 5-Day Average
+S4FI	S&P 400 Stocks Above 50-Day Average
+S4OF	S&P 400 Stocks Above 150-Day Average
+S4OH	S&P 400 Stocks Above 100-Day Average
+S4TH	S&P 400 Stocks Above 200-Day Average
+S4TR	S&P 500 -Commercial & Professional Services [TR]
+S4TW	S&P 400 Stocks Above 20-Day Average
+S5FD	S&P 500 Stocks Above 5-Day Average
+S5FI	S&P 500 Stocks Above 50-Day Average
+S5OF	S&P 500 Stocks Above 150-Day Average
+S5OH	S&P 500 Stocks Above 100-Day Average
+S5TH	S&P 500 Stocks Above 200-Day Average
+S5TR	S&P 500 Consumer Durables & Apparel [TR]
+S5TW	S&P 500 Stocks Above 20-Day Average
+S6CD	S&P SmallCap600 Capped Consumer Discretionary [s
+S6CS	S&P SmallCap600 Capped Consumer Staples [sector]
+S6EP	S&P SmallCap600 Capped Energy [sector]Index
+S6FD	S&P 600 Stocks Above 5-Day Average
+S6FI	S&P 600 Stocks Above 50-Day Average
+S6FP	S&P SmallCap600 Capped Financials [sector]Index
+S6HC	S&P SmallCap600 Capped HealthCare [sector]Index
+S6IP	S&P SmallCap600 Capped Industrials [sector]Index
+S6MP	S&P SmallCap600 Capped Materials [sector]Index
+S6OF	S&P 600 Stocks Above 150-Day Average
+S6OH	S&P 600 Stocks Above 100-Day Average
+S6TH	S&P 600 Stocks Above 200-Day Average
+S6TP	S&P SmallCap600 Capped Information Technology [s
+S6TR	S&P 500 Consumer Services [TR]
+S6TW	S&P 600 Stocks Above 20-Day Average
+S6UP	S&P SmallCap600 Capped Utilities & Telecom Servi
+S7TR	S&P 500 Diversified Financials [TR]
+S8TR	S&P 500 Energy [TR]
+S9TR	S&P 500 Food & Staples Retailing [TR]
+SAAB	S&P Asia Infrastructure Index
+SACC	Alpha Shares China Small Cap Index
+SACN	Alpha Shares China Technology Index
+SAER	S&P GSCI Agriculture Capped Component 35/20 EUR
+SAIE	S&P Africa 40 Index [EURO]
+SAIU	S&P Africa 40 Index
+SAJR	MSCI WISE ASIA Ex-Japan Top [Net TR]
+SAJT	MSCI WISE ASIA Ex-Japan Top
+SAPE	S&P Asia Property 40 Index
+SAPT	S&P GSCI All Metals Capped Commodity 35/20 EUR I
+SAPU	S&P Asia Property 40 Index [EURO]
+SAQA	S&P Global Water Index
+SAQE	S&P Global Water Index [EURO]
+SAUE	S&P GSCI Agriculture Capped Component 35/20 EUR
+SBAI	S&P Brazil ADR Index
+SBER	S&P GSCI Biofuel Index Excess Return
+SBES	BLO M Emerging Shariah Index [NetTR]
+SBFD	S&P Materials Stocks Above 5-Day Average
+SBFI	S&P Materials Stocks Above 50-Day Average
+SBIX	S&P 500 Banks non-TR
+SBNP	S&P Custom/BNP Paribas SPECTRUMUS Sect or Moment
+SBOF	S&P Materials Stocks Above 150-Day Average
+SBOH	S&P Materials Stocks Above 100-Day Average
+SBSE	S&P BRIC Shariah Index [EURO]
+SBSU	S&P BRIC Shariah Index
+SBTH	S&P Materials Stocks Above 200-Day Average
+SBTR	S&P GSCI Biofuel Index Total Return
+SBTW	S&P Materials Stocks Above 20-Day Average
+SBUP	S&P Food & Beverage Select Industry Index
+SCBR	S&P BMI Russia [Capped] [USDollar]
+SCII	CAT China Infrastructure [TR]
+SCIR	S&P GSCI North American Copper Index Excess Retu
+SCIS	S&P GSCI North American Copper Index
+SCIT	S&P GSCI North American Copper Index Total Retur
+SCPC	S&P Custom/Polaris China Play Index [TWD]
+SCRC	S&P /CITIC China 30 Index
+SCRE	Alpha Shares China Real Estate Index
+SCSC	S&P /CITIC 300 Index
+SCSE	S&P /CITIC 50 Index
+SCUT	S&P/CITIC 300 -  Utilities [Sector]
+SCWI	CAT China Water [TR]
+SCWP	S&P Developed Ex-U.S.Property [USDollar]
+SDEW	S&P 400 Midcap Equal Weighted Index
+SDIP	S&P DCFI Index Excess Return
+SDIS	S&P DCFIIndex
+SDIT	S&P DCFI Index Total Return
+SDPI	Goldman Sachs BRICs Nifty 50 Developed Markets I
+SDTI	Goldman Sachs BRICs Nifty 50 Developed Markets I
+SDTR	S&P 500 Food Beverage & Tobacco [TR]
+SDTS	S&P Diversified Trends Indicator
+SDTT	S&P Diversified Trends Total Return Indicator Le
+SEAN	S&P Southeast Asia 40 Index [NetTR]
+SEBI	S-Network Emerging Infrastructure Builders Index
+SECA	S&P GSCI Enhanced Commodity Index
+SECB	S&P GSCI Enhanced Commodity Index Excess Return
+SECC	S&P GSCI Enhanced Commodity Index Total Return
+SEFD	S&P Energies Stocks Above 5-Day Average
+SEFI	S&P Energies Stocks Above 50-Day Average
+SEIB	S-Network Emerging Infrastructure Builders Index
+SEIE	S&P Global Eco Index [EURO]
+SEIT	S&P Global REIT [AUD]
+SEIU	S&P Global Eco Index
+SEMT	Brics Nifty 50 Emerging Market Tradable Index Tr
+SEOF	S&P Energies Stocks Above 150-Day Average
+SEOH	S&P Energies Stocks Above 100-Day Average
+SETH	S&P Energies Stocks Above 200-Day Average
+SETW	S&P Energies Stocks Above 20-Day Average
+SFFD	S&P Financials Stocks Above 5-Day Average
+SFFI	S&P Financials Stocks Above 50-Day Average
+SFOF	S&P Financials Stocks Above 150-Day Average
+SFOH	S&P Financials Stocks Above 100-Day Average
+SFTH	S&P Financials Stocks Above 200-Day Average
+SFTR	S&P 500 - Pharmaceuticals Biotechnology & Life
+SFTW	S&P Financials Stocks Above 20-Day Average
+SG0A	S&P GSCI Agriculture & Live Stock Index
+SG0B	S&P GSCI Agriculture & Live Stock Index Excess R
+SG0C	S&P GSCI Agriculture & Live Stock Index Total Re
+SG0D	S&P GSCI Agriculture Index Excess Return
+SG0E	S&P GSCI Agriculture Index Total Return
+SG0F	S&P GSCI All Cattle Index
+SG0G	S&P GSCI All Cattle Index Excess Return
+SG0H	S&P GSCI All Cattle Index Total Return
+SG0I	S&P GSCI All Crude Index
+SG1A	S&P GSCI All Crude Index Total Return
+SG1B	S&P GSCI All Wheat Index
+SG1C	S&P GSCI All Wheat Index Excess Return
+SG1D	S&P GSCI All Wheat Index Total Return
+SG1E	S&P GSCI Aluminum Index
+SG1F	S&P GSCI Aluminum Index Excess Return
+SG1G	S&P GSCI Aluminum Index Total Return
+SG1H	S&P GSCI Soybean Oil Index
+SG1I	S&P GSCI Soybean Oil Index Excess Return
+SG1J	S&P GSCI All Crude Index Excess Return
+SG2A	S&P GSCI Brent Crude Index
+SG2B	S&P GSCI Brent Crude Index Excess Return
+SG2C	S&P GSCI Brent Crude Index Total Return
+SG2D	S&P GSCI Cocoa Index
+SG2E	S&P GSCI Cocoa Index Excess Return
+SG2F	S&P GSCI Cocoa Index Total Return
+SG2G	S&P GSCI Coffee Index Co Index
+SG2H	S&P GSCI Coffee Index Excess Return
+SG2I	S&P GSCI Coffee Index Total Return
+SG2J	S&P GSCI Soybean Oil Index Total Return
+SG3A	S&P GSCI Copper Index Excess Return
+SG3B	S&P GSCI Copper Index Total Return
+SG3C	S&P GSCI Corn Index
+SG3D	S&P GSCI Corn Index Excess Return
+SG3E	S&P GSCI Corn Index Total Return
+SG3F	S&P GSCI Cotton Index
+SG3G	S&P GSCI Cotton Index Excess Return
+SG3H	S&P GSCI Cotton Index Total Return
+SG3I	S&P GSCI Crude Oil Index
+SG3J	S&P GSCI Copper Index
+SG4A	S&P GSCI Crude Oil Index Total Return
+SG4B	S&P GSCI Energy and Metals Index
+SG4C	S&P GSCI Energy and Metals Index Excess Return
+SG4D	S&P GSCI Energy and Metals Index Total Return
+SG4E	S&P GSCI Energy Index Excess Return
+SG4F	S&P GSCI Energy Index Total Return
+SG4G	S&P GSCI Feeder Cattle Index
+SG4H	S&P GSCI Feeder Cattle Index Excess Return
+SG4I	S&P GSCI Feeder Cattle Index Total Return
+SG4J	S&P GSCI Crude Oil Index Excess Return
+SG5A	S&P GSCI Gas Oil Index Excess Return
+SG5B	S&P GSCI Gas Oil Index Total Return
+SG5C	S&P GSCI Gold Index
+SG5D	S&P GSCI Gold Index Excess Return
+SG5E	S&P GSCI Gold Index Total Return
+SG5F	S&P GSCI Grains Index
+SG5G	S&P GSCI Grains Index Excess Return
+SG5H	S&P GSCI Grains Index Total Return
+SG5I	S&P GSCI Heating Oil Index
+SG5J	S&P GSCI Gas Oil Index
+SG6A	S&P GSCI Heating Oil Index Total Return
+SG6B	S&P GSCI Industrial Metals Index Excess Return
+SG6C	S&P GSCI Industrial Metals Index Total Return
+SG6D	S&P GSCI Kansas Wheat Index
+SG6E	S&P GSCI Kansas Wheat Index Excess Return
+SG6F	S&P GSCI Kansas Wheat Index Total Return
+SG6G	S&P GSCI Lead Index
+SG6H	S&P GSCI Lead Index Excess Return
+SG6I	S&P GSCI Lead Index Total Return
+SG6J	S&P GSCI Heating Oil Index Excess Return
+SG7A	S&P GSCI Lean Hogs Index Excess Return
+SG7B	S&P GSCI Lean Hogs Index Total Return
+SG7C	S&P GSCI Light Energy Index [CPW4]
+SG7D	S&P GSCI Light Energy Index [CPW4] Excess Return
+SG7E	S&P GSCI Light Energy Index [CPW4] Total Return
+SG7F	S&P GSCI Live Cattle Index
+SG7G	S&P GSCI Live Cattle Index Excess Return
+SG7H	S&P GSCI Live Cattle Index Total Return
+SG7I	S&P GSCI Livestock Index Excess Return
+SG7J	S&P GSCI Lean Hogs Index
+SG8A	S&P GSCI Natural Gas Index
+SG8B	S&P GSCI Natural Gas Index Excess Return
+SG8C	S&P GSCI Natural Gas Index Total Return
+SG8D	S&P GSCI Nickel Index
+SG8E	S&P GSCI Nickel Index Excess Return
+SG8F	S&P GSCI Nickel Index Total Return
+SG8G	S&P GSCI Non-Energy Index Excess Return
+SG8H	S&P GSCI Non-Energy Index
+SG8I	S&P GSCI Non-Energy Index Total Return
+SG8J	S&P GSCI Livestock Index Total Return
+SG9A	S&P GSCI Non-Livestock Index Excess Return
+SG9B	S&P GSCI Non-Livestock Index Total Return
+SG9C	S&P GSCI Non-Natural Gas Index
+SG9D	S&P GSCI Non-Natural Gas Index Excess Return
+SG9E	S&P GSCI Non-Natural Gas Index Total Return
+SG9F	S&P GSCI Non-Precious Index
+SG9G	S&P GSCI Non-Precious Index Excess Return
+SG9H	S&P GSCI Non-Precious Index Total Return
+SG9I	S&P GSCI Petroleumex-Gas Oil Index
+SG9J	S&P GSCI Non-Livestock Index
+SGAA	S&P Global Agribusiness Composite Index USD
+SGAB	S&P Global Agribusiness Composite Index EUR
+SGAC	S&P Global Agribusiness Equity Index
+SGAD	S&P Global Agribusiness Equity Index [EURO]
+SGCC	S&P GSCI Capped Commodity 35/20 Index
+SGCR	S&P GSCI All Metals Capped Index Excess Return
+SGDO	S&P Global Dividend Opportunities Index
+SGIA	S&P North American Natural Resources Sector Inde
+SGIB	S&P North American Technology Sector Index
+SGID	S&P North American Technology Software Index
+SGIF	S&P North American Technology Multimedia Network
+SGIR	S&P GSCI All Metals Index Excess Return
+SGJ	S&P GSCI Energy
+SGK	S&P GSCI Agriculture
+SGLN	SGI Global Security Index [EURO] [TR]
+SGMA	S&P GSCI All Metals Index
+SGME	SGI Global Momentum [NetTR] [EURO] [NetTR] [NEWV
+SGMU	SGI Global Momentum [NetTR] [NEWVA]
+SGON	S&P Global Dividend Opportunities Index [NetTR]
+SGP	S&P GSCI Precious Metals
+SGPA	S&P GSCI All Metals Capped Index
+SGPG	S&P GSCI Agriculture Capped Index
+SGPP	S&P GSCI Capped Commodity 35/20 Index Excess Ret
+SGPR	S&P GSCI Agriculture Capped Index Total Return
+SGPT	S&P GSCI Capped Commodity 35/20 Index Total Retu
+SGQA	S&P GSCI Petroleumex-Gas Oil Index Total Return
+SGQB	S&P GSCI Petroleum Index
+SGQC	S&P GSCI Petroleum Index Excess Return
+SGQD	S&P GSCI Petroleum Index Total Return
+SGQE	S&P GSCI Precious Metals Index Excess Return
+SGQF	S&P GSCI Precious Metals Index Total Return
+SGQG	S&P GSCI Reduced Energy Index [CPW2]
+SGQH	S&P GSCI Reduced Energy Index [CPW2] Excess Retu
+SGQI	S&P GSCI Reduced Energy Index [CPW2] Total Retur
+SGQJ	S&P GSCI Petroleumex GasOil Index Excess Return
+SGRC	S&P GSCI All Metals Capped Commodity 35/20 EUR I
+SGRE	S&P GSCI All Metals Capped Commodity 35/20 EUR I
+SGRG	S&P GSCI Agriculture Capped Index Excess Return
+SGRM	Cohen & Steers Global Realty Majors Portfolio [T
+SGRT	S&P GSCI Agriculture Capped Component 35/20 EUR
+SGSA	S&P GSCI Silver Index
+SGSB	S&P GSCI Silver Index Excess Return
+SGSC	S&P GSCI Silver Index Total Return
+SGSD	S&P GSCI Soybeans Index
+SGSE	S&P GSCI Excess Return
+SGSF	S&P GSCI Soybeans Index Excess Return
+SGSG	S&P GSCI Soybeans Index Total Return
+SGSH	S&P GSCI Sugar Index
+SGSJ	S&P GSCI Sugar Index Excess Return
+SGSK	S&P GSCI Sugar Index Total Return
+SGSM	S&P GSCI Ultra-Light Energy Index [CPW8] Excess
+SGSN	S&P GSCI Ultra-Light Energy Index [CPW8] Total R
+SGSO	S&P GSCI Unleaded Gasoline Index
+SGSP	S&P GSCI Unleaded Gasoline Index Excess Return
+SGSQ	S&P GSCI Unleaded Gasoline Index Total Return
+SGSR	S&P GSCI Wheat Index
+SGSS	S&P GSCI Wheat Index Excess Return
+SGST	S&P GSCI Wheat Index Total Return
+SGSU	S&P GSCI Zinc Index
+SGSV	S&P GSCI Zinc Index Excess Return
+SGSW	S&P GSCI Zinc Index Total Return
+SGSX	S&P GSCI Ultra-LightEnergyIndex [CPW8]
+SGT	S&P GSCI Total Return
+SGTR	S&P GSCI All Metals Capped Index Total Return
+SGV	CASINO GAMING
+SGWT	S&P GSCI Select Equal Weight Index Tr
+SGX	S&P GSCI FPI Index
+SGY	S&P GSCI Industrial Metals
+SHTR	S&P 500 HealthCare Equipment & Services [TR]
+SIDO	S&P International Dividend Opportunities Index
+SIFD	S&P Industrials Stocks Above 5-Day Average
+SIFI	S&P Industrials Stocks Above 50-Day Average
+SIIP	S&P DFFI Index Excess Return
+SIIS	S&P DFFI Index
+SIIT	S&P DFFI Index Total Return
+SIOF	S&P Industrials Stocks Above 150-Day Average
+SIOH	S&P Industrials Stocks Above 100-Day Average
+SIPR	Brics Nifty 50 Emerging Market Tradable Index Pr
+SIRP	Cohen & Steers International Realty Majors Portf
+SITH	S&P Industrials Stocks Above 200-Day Average
+SITR	S&P 500 Insurance [TR]
+SITW	S&P Industrials Stocks Above 20-Day Average
+SIUT	S&P 500 2x Inverse Daily Index
+SJPA	S&P Japan 500
+SJPB	S&P Japan Mid Cap 100
+SJPC	S&P Japan Small Cap 250 Index
+SJPD	S&P TOPIX YEN
+SJRI	S&P Japan Regional Index-Tokai
+SJTR	S&P 500 Semiconductors & Semiconductor Equipment
+SKFD	S&P Info Tech Stocks Above 5-Day Average
+SKFI	S&P Info Tech Stocks Above 50-Day Average
+SKOF	S&P Info Tech Stocks Above 150-Day Average
+SKOH	S&P Info Tech Stocks Above 100-Day Average
+SKTH	S&P Info Tech Stocks Above 200-Day Average
+SKTR	S&P 500 Materials [TR]
+SKTW	S&P Info Tech Stocks Above 20-Day Average
+SLAC	S&P LAC40 [US$] [EURO] [NetTR]
+SLCN	S&P US Carbon Efficient Index U.S. Carbci Index
+SLCT	S&P U.S. Carbon Efficient Index [TR]
+SLCU	S&P U.S. Carbon Efficient Index [NetTR]
+SLEE	S&P GSCI Light Energy EUR Index
+SLER	S&P GSCI Light Energy EUR Index ER
+SLEW	S&P 600 Smallcap Equal Weighted Index
+SLFD	S&P Telecom Srvs Stocks Above 5-Day Average
+SLFI	S&P Telecom Srvs Stocks Above 50-Day Average
+SLOF	S&P Telecom Srvs Stocks Above 150-Day Average
+SLOH	S&P Telecom Srvs Stocks Above 100-Day Average
+SLPE	Global Listed Private Equity Index
+SLPX	Cushing 30 MLP Index USD Price Return
+SLRT	S&P GSCI Light Energy EUR Index TR
+SLTH	S&P Telecom Srvs Stocks Above 200-Day Average
+SLTW	S&P Telecom Srvs Stocks Above 20-Day Average
+SLUN	S&P 500 2x Leverage Daily Index
+SLUT	S&P 500 Gold Hedged Index
+SLV	Silver Index
+SML	S&P Small Caps 600 Index
+SMPR	Goldman Sachs BRICs Nifty 50 Emerging Markets In
+SMRW	Revenue Shares MidCap Fund
+SMSS	Morgan Stanley Smart Money Equity Index [TR]
+SMTI	Goldman Sachs BRICs Nifty 50 Emerging Markets In
+SMTR	S&P GSCI All Metals Index Total Return
+SNAC	Alpha Shares China All Cap Index
+SNCH	Next 11 Core 8 Index
+SNCT	Next 11 Core 8 Index [TR]
+SNER	S&P GSCI Non-Energy EUR IndexER
+SNNE	S&P Global Infrastructure Index [EURO] [NetTR]
+SNNT	S&P Global Infrastructure Index [NetTR]
+SNRE	S&P Global Natural Resources Index [EURO]
+SNRT	S&P GSCI Non-Energy EUR Index TR
+SNRU	S&P Global Natural Resources Index
+SNTE	Next 11 Core 5 Index [TR]
+SNUI	S&P GSCI Non-Energy EUR Index
+SOBC	SGI-Orbeo Carbon Credit Index [EUR-TotalReturn]
+SOCC	SGI-Orbeo Carbon Credit Index [USD-TotalReturn]
+SP500	S&P 500
+SPAA	SGI Pan Africa Index [NetTR] Panri Indexet
+SPAB	SGI Pan Africa Index [EURO] [NetTR]
+SPAC	SGI Pan Africa Index
+SPAD	S&P GSCI Palladium Index
+SPEE	S&P Listed Private Equity Index [EURO]
+SPER	S&P GSCI Palladium Index Excess Return
+SPEY	S&P Listed Private Equity Index
+SPFD	S&P Con Staples Stocks Above 5-Day Average
+SPFI	S&P Con Staples Stocks Above 50-Day Average
+SPIN	S&P GSCI Platinum Index
+SPIR	S&P GSCI Platinum Index Excess Return
+SPLR	S&P GSCI Platinum Index Total Return
+SPOF	S&P Con Staples Stocks Above 150-Day Average
+SPOH	S&P Con Staples Stocks Above 100-Day Average
+SPPR	S&P International Preferred Stock Index
+SPRL	SGI Premium List [NetTR]
+SPRT	S&P GSCI Palladium Index Total Return
+SPTH	S&P Con Staples Stocks Above 200-Day Average
+SPTW	S&P Con Staples Stocks Above 20-Day Average
+SPUS	S&P  Global Ex-U.S. Property [US Dollar]
+SPX	S&P 500 INDEX
+SPXT	S&P 500 [TR]
+SQTR	S&P 500 Software & Services [TR]
+SRFF	SGI Fed Funds Index
+SRFI	S&P 500 Financials [Sector]
+SRIC	S&P BRIC 40 Index [NetTR]
+SRIE	S&P BRIC 40 Index [EURO] [NetTR]
+SRMP	Cohen & Steers US Realty Majors Portfolio [TR]
+SRPR	S&P Global REIT [USD]
+SRTR	S&P 500 Real Estate [TR]
+SRWI	Revenue Shares Large Cap Fund
+SS1E	S&P 500 EQUAL WEIGHTED Materials [Sector]
+SS1J	S&P 500 EQUAL WEIGHTED Energy [Sector]
+SS2E	S&P 500 EQUAL WEIGHTED Consumer Discretionary [S
+SS2J	S&P 500 EQUAL WEIGHTED Industrials [Sector]
+SS3E	S&P 500 EQUAL WEIGHTED HealthCare [Sector]
+SS3J	S&P 500 EQUAL WEIGHTED Consumer Staples [Sector]
+SS4E	S&P 500 EQUAL WEIGHTED Information Technology [S
+SS4J	S&P 500 EQUAL WEIGHTED Financials [Sector]
+SS5E	S&P 500 EQUAL WEIGHTED Utilities [Sector]
+SS5J	S&P 500 EQUAL WEIGHTED Telecommunication Service
+SSAE	S&P Southeast Asia 40 Index [EURO]
+SSAI	S&P Southeast Asia 40 Index [EURO] [NetTR]
+SSAU	S&P Southeast Asia 40 Index
+SSAX	S&P Asia50
+SSBE	S&P BRIC 40 Index [EURO]
+SSBR	S&P BRIC 40 Index
+SSCA	S&P Asia Pacific Emerging BMI [USDollar]
+SSCB	S&P Mid-East and Africa BMI [USDollar]
+SSCE	S&P /Citigroup BMI EPAC Index
+SSCH	S&P China BMI [USDollar]
+SSCK	S&P EM BMI [USDollar]
+SSCL	S&P Latin America BMI [USDollar]
+SSCM	Schwab 1000 Index
+SSCP	S&P /Citigroup BMI Asia Pacific Index
+SSCQ	S&P European Emerging BMI [CAPPED] [USDollar]
+SSCS	S&P Developed Ex US Under USD 2 Billion [USDolla
+SSCU	S&P /Citigroup BMI Europe Index
+SSCW	S&P Developed Ex-U.S.BMI [USDollar]
+SSDI	S&P 500 Dividend Index
+SSEN	SGI Global Senior [NetTR]
+SSER	SPECTRUM-Long/Short 8% Index ER [NEWVA]
+SSEW	S&P GSCI Select Equal Weight Index Spot
+SSFB	SGI Double Short Bund Index
+SSFD	S&P Real Estate Stocks Above 5-Day Average
+SSFI	S&P Real Estate Stocks Above 50-Day Average
+SSGC	S&P GSCI Enhanced Capped Index
+SSGD	S&P GLOBAL1200-Consumer Discretionary [Sector]
+SSGE	S&P GLOBAL1200-Energy [Sector]
+SSGF	S&P GLOBAL1200-Financials [Sector]
+SSGG	SGI Global Generics Index [EURO] [NetTR]
+SSGH	S&P GLOBAL1200-HealthCare [Sector]
+SSGI	S&P GLOBAL1200-Information Technology [Sector]
+SSGL	S&P GLOBAL1200
+SSGM	S&P GLOBAL1200-Materials [Sector]
+SSGN	S&P GLOBAL1200-Industrials [Sector]
+SSGO	S&P GSCI E27 WTI Index
+SSGP	S&P GSCI Enhanced Capped Index Excess Return
+SSGR	S&P GSCI Enhanced Capped Index Total Return
+SSGS	S&P GLOBAL1200-Consumer Staples [Sector]
+SSGT	S&P GLOBAL1200-Telecommunication Services [Secto
+SSGU	S&P GLOBAL1200-Utilities [Sector]
+SSGX	S&P GSCI E27WTI Index Excess Return
+SSGZ	S&P GSCI E27WTI Index Total Return
+SSHE	S&P Europe 350 Shariah Index
+SSHJ	S&P Japan 500 Shariah Index
+SSHX	S&P 500 Shariah Index
+SSIA	Credit Suisse Social Awareness Index
+SSIB	S&P GSCI Softs Index Excess Return
+SSIC	S&P GSCI Softs Index Total Return
+SSIP	S&P DFI Index Excess Return
+SSIS	S&P DFI Index
+SSIT	S&P DFI Index Total Return
+SSLF	S&P Select Frontier Index
+SSLS	S&P Custom/BNP Paribas-SPECTRUM [GRIPTEST]
+SSNI	SGI Global Nanotechnology Index [NetTR]
+SSOF	S&P Real Estate Stocks Above 150-Day Average
+SSOH	S&P Real Estate Stocks Above 100-Day Average
+SSPA	S&P ADR Index
+SSPE	S&P EUROPE 350
+SSPF	S&P EUROPE 350 - Financials [Sector]
+SSPI	S&P EUROPE 350 - Information Technology [Sector]
+SSPL	S&P 500Telecom&IT
+SSPN	S&P 500Energy[Sector]
+SSPT	S&P EUROPE 350 - Telecommunication Services [Sec
+SSPU	S&P EURO
+SSRF	S&P Preferred Stock Index
+SSRW	Revenue Shares Small Cap Fund
+SSTH	S&P Real Estate Stocks Above 200-Day Average
+SSTU	S&P 500 EQUAL WEIGHTED Utilities & Telecommunica
+SSTW	S&P Real Estate Stocks Above 20-Day Average
+SSUC	S&P GSCI Capped Component 35/20 Index
+SSUP	S&P GSCI Capped Component 35/20 Index Excess Ret
+SSUT	S&P GSCI Capped Component 35/20 Index Total Retu
+SSWP	S&P GSCI Select Equal Weight Index Er
+STCE	S&P Global Clean Energy Index [EURO]
+STCL	S&P Global Clean Energy Index
+STFE	S&P Global Timber and Forestry Index [EURO]
+STFU	S&P Global Timber and Forestry Index
+STIC	S&P CTI Total Return USD
+STIF	S&P Global Infrastructure Index [EURO]
+STIL	SGI Smart WTI Long Invest Index [NEWVA]
+STIR	S&P Global Infrastructure Index
+STIS	S&P Commodity Trends Indicator
+STMP	Tortoise MLP Index
+STNC	Tsx American Preferred Stock Index
+STNU	S&P/Tsx North American Pref Stock Index
+STRA	S&P Target Risk Aggressive Index
+STRB	S&P Target Risk Moderate Index
+STRC	S&P Target Risk Growth Index
+STRD	S&P Target Risk Conservative Index
+STRL	S&P LAC40 [US$] [NetTR]
+STRN	S&P 500 [NetTR]
+STRS	S&P 500 TR Short
+STRT	S&P 500 Telecommunication Services [TR]
+STRU	S&P 500 Household & Personal Products [TR]
+STSI	SGI Smart WTI Short Invest Index [NEWVA]
+STSU	S&P TOP IX150 Shariah [USD]
+STSY	S&P TOP IX150 Shariah
+STTR	S&P 500 Technology Hardware & Equipment [TR]
+SUCD	S&P Select Sector Capped 20% Consumer Discretion
+SUCS	S&P Select Sector Capped 20% Consumer Staples In
+SUEP	S&P Select Sector Capped 20% Energy Index Net TR
+SUFD	S&P Utilities Stocks Above 5-Day Average
+SUFI	S&P Utilities Stocks Above 50-Day Average
+SUFP	S&P Select Sector Capped 20% Financials Index Ne
+SUHC	S&P Select Sector Capped 20% HealthCare Index Ne
+SUIP	S&P Select Sector Capped 20% Industrials Index N
+SUJP	S&P Mitsubishi Corporate Group Index
+SUKP	S&P United Kingdom [PDS]
+SUKS	S&P United Kingdom [USD]
+SUMI	S&P Select Sector Capped 20% Materials Index Net
+SUNI	MAC GLOBAL SOLAR INDEX
+SUOF	S&P Utilities Stocks Above 150-Day Average
+SUOH	S&P Utilities Stocks Above 100-Day Average
+SUPI	S&P Select Sector Capped 20% Utilities Index Net
+SURI	S&P /Citigroup BMI REIT SUS Index
+SUTH	S&P Utilities Stocks Above 200-Day Average
+SUTP	S&P Select Sector Capped 20% Technology Index Ne
+SUTW	S&P Utilities Stocks Above 20-Day Average
+SVFD	S&P Health Care Stocks Above 5-Day Average
+SVFI	S&P Health Care Stocks Above 50-Day Average
+SVOF	S&P Health Care Stocks Above 150-Day Average
+SVOH	S&P Health Care Stocks Above 100-Day Average
+SVTH	S&P Health Care Stocks Above 200-Day Average
+SVTR	Next 11 Vietnam [TotalReturn] Index
+SVTW	S&P Health Care Stocks Above 20-Day Average
+SW0B	S&P Developed Ex-U.S.BMI [Capped] Energy
+SW0C	S&P Developed Ex-U.S.BMI [Capped] Materials
+SW0D	S&P Developed Ex-U.S.BMI [Capped] Industrials
+SW0E	S&P Developed Ex-U.S.BMI [Capped] Consumer Discr
+SW0F	S&P Developed Ex-U.S.BMI [Capped] Consumer Stapl
+SW0G	S&P Developed Ex-U.S.BMI [Capped] HealthCare
+SW0H	S&P Developed Ex-U.S.BMI [Capped] Financials
+SW0I	S&P Developed Ex-U.S.BMI [Capped] Information Te
+SW1A	S&P Developed Ex-U.S.BMI [Capped] Utilities
+SW1B	S&P Developed Ex-U.S.Cap Range Companies Between
+SW1C	S&P Emerging Under USD 2 Billion
+SW1J	S&P Developed Ex-U.S.BMI [Capped] Telecommunicat
+SWFI	Revenue Shares Large Cap Fund Financials [Sector
+SWIB	SGI Wise Bottom
+SWIT	SGI Wise Top
+SWML	Wachovia MLP Index
+SWSP	S&P World Commodity Index
+SWUB	SGI Wise US Bottom
+SWUL	SGI Wise US Long/Short [NEWVA]
+SWUT	SGI WISE US Top
+SXTR	S&P 500 Utilities [Industry Group] [TR]
+SYFD	S&P Consumer Disc Stocks Above 5-Day Average
+SYFI	S&P Consumer Disc Stocks Above 50-Day Average
+SYOF	S&P Consumer Disc Stocks Above 150-Day Average
+SYOH	S&P Consumer Disc Stocks Above 100-Day Average
+SYTH	S&P Consumer Disc Stocks Above 200-Day Average
+SYTR	S&P 500 Transportation [Industry Group] [TR]
+SYTW	S&P Consumer Disc Stocks Above 20-Day Average
+SZTR	S&P 500 Retailing [Industry Group] [TR]
+TACK	AMEX Tick
+TACX	AMEX Tick
+TICK	NYSE Tick
+TICX	NYSE Tick
+TNX	10-YEAR TREASURY NOTE
+TOOC	Tsx Capped Composite Index
+TQCK	NASD Tick
+TQCX	NASD Tick
+TRIA	AMEX Trin
+TRIN	NYSE Trin
+TRIQ	NASD Trin
+TTCD	Tsx Consumer Discretionary Capped Index
+TTCS	Tsx Consumer Staples Capped Index
+TTEN	Tsx Capped Energy Index
+TTFS	Tsx Financials Capped Index
+TTGD	Tsx Global Gold Index
+TTHC	Tsx Health Care Capped Index
+TTIN	Tsx Industrials Capped Index
+TTMT	Tsx Materials Capped Index
+TTRE	Tsx Real Estate Capped Index
+TTTK	Tsx Information Tech Capped Index
+TTTS	Tsx Telecom Services Capped Index
+TTUT	Tsx Utilities Capped Index
+TXBE	Tsx Global Base Metals Ew Index
+TXBM	Tsx Global Base Metals Index
+TXCT	Tsx Clean Technology Index
+TXCX	TSX Composite Index
+TXDC	Tsx Composite Dividend Index
+TXDE	Tsx Diversified Banks Ew Index
+TXDV	Tsx Canadian Dividend Aristocrats Index
+TXEI	Tsx Equity Income Index
+TXEW	Tsx 60 Equal Weight Index
+TXFO	Tsx Completion Index
+TXGM	Tsx Global Mining Index
+TXOE	Tsx Oil And Gas Ew Index
+TXPR	Tsx Preferred Share Index
+TXSC	Tsx 60 Capped Index
+TXSI	Tsx 60 Shariah Index
+TXSX	Tsx 60 Index
+TXTW	Tsx Smallcap Index
+TYX	30-YEAR TREASURY BOND
+UNCA	AMEX Unchanged Stocks
+UNCC	CSE Unchanged Stocks
+UNCE	ETFS Unchanged Stocks
+UNCN	NYSE Unchanged Stocks
+UNCQ	NASD Unchanged Stocks
+UNCS	TSX Unchanged Stocks
+UNCT	Total Unchanged Stocks
+UNCU	OTC US Unchanged Stocks
+UNCV	TSXV Unchanged Stocks
+UNCX	CAD Total Unchanged Stocks
+UOI	US Oil Iopv
+UTY	Phlx Utility Index
+UVCA	AMEX Unchanged Volume
+UVCC	CSE Unchanged Volume
+UVCE	ETFS Unchanged Volume
+UVCN	NYSE Unchanged Volume
+UVCQ	NASD Unchanged Volume
+UVCS	TSX Unchanged Volume
+UVCT	Total Unchanged Volume
+UVCU	OTC US Unchanged Volume
+UVCV	TSXV Unchanged Volume
+UVCX	CAD Total Unchanged Volume
+VFWA	VOL Index First Forward Implied Volatility
+VFWB	VOL Index Second Forward Implied Volatility
+VIX	CBOE Volatility Index
+VWA	CBOE MARKET VOLATILITY -SPX ASK
+VWB	CBOE MARKET VOLATILITY -SPX BID
+VXB	JUMBO CBOE VOLATILITY INDEX
+VXD	CBOE DJIA VOLATILITY INDEX
+VXDE	DEC CBOE VOLATILITY INDEX
+VXJU	JUN CBOE VOLATILITY INDEX
+VXMA	MAR CBOE VOLATILITY INDEX
+VXN	CBOE NASDAQ Volatility Index
+VXO	CBOE OEX VOLATILITY INDEX
+VXSE	SEP CBOE VOLATILITY INDEX
+VXV	CBOE S&P 500 3M VOLATILITY INDEX
+XAU	Phlx Gold Silver Index
+XAX	AMEX Composite Index
+XDS	PHLX SWISS FRANC
+XEO	S& P 100 INDEX[EUROPEAN    STYLE
+XOI	AMEX Oil Index
+XSP	S& P 500 MINI-SPX OPTIO    IND
+Y0FD	TSX Venture Stocks Above 5-Day Average
+Y0FI	TSX Venture Stocks Above 50-Day Average
+Y0OF	TSX Venture Stocks Above 150-Day Average
+Y0OH	TSX Venture Stocks Above 100-Day Average
+Y0TH	TSX Venture Stocks Above 200-Day Average
+Y0TW	TSX Venture Stocks Above 20-Day Average
+Y1FD	TSX Income Trust Stocks Above 5-Day Average
+Y1FI	TSX Income Trust Stocks Above 50-Day Average
+Y1OF	TSX Income Trust Stocks Above 150-Day Average
+Y1OH	TSX Income Trust Stocks Above 100-Day Average
+Y1TH	TSX Income Trust Stocks Above 200-Day Average
+Y1TW	TSX Income Trust Stocks Above 20-Day Average
+Y2FD	TSX REIT Capped Stocks Above 5-Day Average
+Y2FI	TSX REIT Capped Stocks Above 50-Day Average
+Y2OF	TSX REIT Capped Stocks Above 150-Day Average
+Y2OH	TSX REIT Capped Stocks Above 100-Day Average
+Y2TH	TSX REIT Capped Stocks Above 200-Day Average
+Y2TW	TSX REIT Capped Stocks Above 20-Day Average
+Y3FD	TSX American Pref Stocks Above 5-Day Average
+Y3FI	TSX American Pref Stocks Above 50-Day Average
+Y3OF	TSX American Pref Stocks Above 150-Day Average
+Y3OH	TSX American Pref Stocks Above 100-Day Average
+Y3TH	TSX American Pref Stocks Above 200-Day Average
+Y3TW	TSX American Pref Stocks Above 20-Day Average
+Y5FD	TSX Capped Comp Stocks Above 5-Day Average
+Y5FI	TSX Capped Comp Stocks Above 50-Day Average
+Y5OF	TSX Capped Comp Stocks Above 150-Day Average
+Y5OH	TSX Capped Comp Stocks Above 100-Day Average
+Y5TH	TSX Capped Comp Stocks Above 200-Day Average
+Y5TW	TSX Capped Comp Stocks Above 20-Day Average
+Y6FD	TSX Con Disc Stocks Above 5-Day Average
+Y6FI	TSX Con Disc Stocks Above 50-Day Average
+Y6OF	TSX Con Disc Stocks Above 150-Day Average
+Y6OH	TSX Con Disc Stocks Above 100-Day Average
+Y6TH	TSX Con Disc Stocks Above 200-Day Average
+Y6TW	TSX Con Disc Stocks Above 20-Day Average
+Y7FD	TSX Con Staples Stocks Above 5-Day Average
+Y7FI	TSX Con Staples Stocks Above 50-Day Average
+Y7OF	TSX Con Staples Stocks Above 150-Day Average
+Y7OH	TSX Con Staples Stocks Above 100-Day Average
+Y7TH	TSX Con Staples Stocks Above 200-Day Average
+Y7TW	TSX Con Staples Stocks Above 20-Day Average
+Y8FD	TSX Energy Stocks Above 5-Day Average
+Y8FI	TSX Energy Stocks Above 50-Day Average
+Y8OF	TSX Energy Stocks Above 150-Day Average
+Y8OH	TSX Energy Stocks Above 100-Day Average
+Y8TH	TSX Energy Stocks Above 200-Day Average
+Y8TW	TSX Energy Stocks Above 20-Day Average
+Y9FD	TSX Financials Stocks Above 5-Day Average
+Y9FI	TSX Financials Stocks Above 50-Day Average
+Y9OF	TSX Financials Stocks Above 150-Day Average
+Y9OH	TSX Financials Stocks Above 100-Day Average
+Y9TH	TSX Financials Stocks Above 200-Day Average
+Y9TW	TSX Financials Stocks Above 20-Day Average
+YAFD	TSX Global Gold Stocks Above 5-Day Average
+YAFI	TSX Global Gold Stocks Above 50-Day Average
+YAOF	TSX Global Gold Stocks Above 150-Day Average
+YAOH	TSX Global Gold Stocks Above 100-Day Average
+YATH	TSX Global Gold Stocks Above 200-Day Average
+YATW	TSX Global Gold Stocks Above 20-Day Average
+YBFD	TSX Health Care Stocks Above 5-Day Average
+YBFI	TSX Health Care Stocks Above 50-Day Average
+YBOF	TSX Health Care Stocks Above 150-Day Average
+YBOH	TSX Health Care Stocks Above 100-Day Average
+YBTH	TSX Health Care Stocks Above 200-Day Average
+YBTW	TSX Health Care Stocks Above 20-Day Average
+YCFD	TSX Industrials Stocks Above 5-Day Average
+YCFI	TSX Industrials Stocks Above 50-Day Average
+YCOF	TSX Industrials Stocks Above 150-Day Average
+YCOH	TSX Industrials Stocks Above 100-Day Average
+YCTH	TSX Industrials Stocks Above 200-Day Average
+YCTW	TSX Industrials Stocks Above 20-Day Average
+YDFD	TSX Materials Stocks Above 5-Day Average
+YDFI	TSX Materials Stocks Above 50-Day Average
+YDOF	TSX Materials Stocks Above 150-Day Average
+YDOH	TSX Materials Stocks Above 100-Day Average
+YDTH	TSX Materials Stocks Above 200-Day Average
+YDTW	TSX Materials Stocks Above 20-Day Average
+YEFD	TSX Real Estate Stocks Above 5-Day Average
+YEFI	TSX Real Estate Stocks Above 50-Day Average
+YEOF	TSX Real Estate Stocks Above 150-Day Average
+YEOH	TSX Real Estate Stocks Above 100-Day Average
+YETH	TSX Real Estate Stocks Above 200-Day Average
+YETW	TSX Real Estate Stocks Above 20-Day Average
+YFFD	TSX Info Tech Stocks Above 5-Day Average
+YFFI	TSX Info Tech Stocks Above 50-Day Average
+YFOF	TSX Info Tech Stocks Above 150-Day Average
+YFOH	TSX Info Tech Stocks Above 100-Day Average
+YFTH	TSX Info Tech Stocks Above 200-Day Average
+YFTW	TSX Info Tech Stocks Above 20-Day Average
+YGFD	TSX Telecom Srvs Stocks Above 5-Day Average
+YGFI	TSX Telecom Srvs Stocks Above 50-Day Average
+YGOF	TSX Telecom Srvs Stocks Above 150-Day Average
+YGOH	TSX Telecom Srvs Stocks Above 100-Day Average
+YGTH	TSX Telecom Srvs Stocks Above 200-Day Average
+YGTW	TSX Telecom Srvs Stocks Above 20-Day Average
+YHFD	TSX Utilities Stocks Above 5-Day Average
+YHFI	TSX Utilities Stocks Above 50-Day Average
+YHOF	TSX Utilities Stocks Above 150-Day Average
+YHOH	TSX Utilities Stocks Above 100-Day Average
+YHTH	TSX Utilities Stocks Above 200-Day Average
+YHTW	TSX Utilities Stocks Above 20-Day Average
+YIFD	TSX Buyback Stocks Above 5-Day Average
+YIFI	TSX Buyback Stocks Above 50-Day Average
+YIOF	TSX Buyback Stocks Above 150-Day Average
+YIOH	TSX Buyback Stocks Above 100-Day Average
+YITH	TSX Buyback Stocks Above 200-Day Average
+YITW	TSX Buyback Stocks Above 20-Day Average
+YJFD	TSX G.B. Metals EW Stocks Above 5-Day Average
+YJFI	TSX G.B. Metals EW Stocks Above 50-Day Average
+YJOF	TSX G.B. Metals EW Stocks Above 150-Day Average
+YJOH	TSX G.B. Metals EW Stocks Above 100-Day Average
+YJTH	TSX G.B. Metals EW Stocks Above 200-Day Average
+YJTW	TSX G.B. Metals EW Stocks Above 20-Day Average
+YKFD	TSX G.B. Metals Stocks Above 5-Day Average
+YKFI	TSX G.B. Metals Stocks Above 50-Day Average
+YKOF	TSX G.B. Metals Stocks Above 150-Day Average
+YKOH	TSX G.B. Metals Stocks Above 100-Day Average
+YKTH	TSX G.B. Metals Stocks Above 200-Day Average
+YKTW	TSX G.B. Metals Stocks Above 20-Day Average
+YLFD	TSX Composite EW Stocks Above 5-Day Average
+YLFI	TSX Composite EW Stocks Above 50-Day Average
+YLOF	TSX Composite EW Stocks Above 150-Day Average
+YLOH	TSX Composite EW Stocks Above 100-Day Average
+YLTH	TSX Composite EW Stocks Above 200-Day Average
+YLTW	TSX Composite EW Stocks Above 20-Day Average
+YMFD	TSX Renew & Clean Stocks Above 5-Day Average
+YMFI	TSX Renew & Clean Stocks Above 50-Day Average
+YMOF	TSX Renew & Clean Stocks Above 150-Day Average
+YMOH	TSX Renew & Clean Stocks Above 100-Day Average
+YMTH	TSX Renew & Clean Stocks Above 200-Day Average
+YMTW	TSX Renew & Clean Stocks Above 20-Day Average
+YNFD	TSX Composite Stocks Above 5-Day Average
+YNFI	TSX Composite Stocks Above 50-Day Average
+YNOF	TSX Composite Stocks Above 150-Day Average
+YNOH	TSX Composite Stocks Above 100-Day Average
+YNTH	TSX Composite Stocks Above 200-Day Average
+YNTW	TSX Composite Stocks Above 20-Day Average
+YOFD	TSX Composite Divd Stocks Above 5-Day Average
+YOFI	TSX Composite Divd Stocks Above 50-Day Average
+YOOF	TSX Composite Divd Stocks Above 150-Day Average
+YOOH	TSX Composite Divd Stocks Above 100-Day Average
+YOTH	TSX Composite Divd Stocks Above 200-Day Average
+YOTW	TSX Composite Divd Stocks Above 20-Day Average
+YPFD	TSX Diver Banks EW Stocks Above 5-Day Average
+YPFI	TSX Diver Banks EW Stocks Above 50-Day Average
+YPOF	TSX Diver Banks EW Stocks Above 150-Day Average
+YPOH	TSX Diver Banks EW Stocks Above 100-Day Average
+YPTH	TSX Diver Banks EW Stocks Above 200-Day Average
+YPTW	TSX Diver Banks EW Stocks Above 20-Day Average
+YQFD	TSX Divd Aristocrats Stocks Above 5-Day Average
+YQFI	TSX Divd Aristocrats Stocks Above 50-Day Average
+YQOF	TSX Divd Aristocrats Stocks Above 150-Day Averag
+YQOH	TSX Divd Aristocrats Stocks Above 100-Day Averag
+YQTH	TSX Divd Aristocrats Stocks Above 200-Day Averag
+YQTW	TSX Divd Aristocrats Stocks Above 20-Day Average
+YRFD	TSX Comp HI Div Stocks Above 5-Day Average
+YRFI	TSX Comp HI Div Stocks Above 50-Day Average
+YROF	TSX Comp HI Div Stocks Above 150-Day Average
+YROH	TSX Comp HI Div Stocks Above 100-Day Average
+YRTH	TSX Comp HI Div Stocks Above 200-Day Average
+YRTW	TSX Comp HI Div Stocks Above 20-Day Average
+YSFD	TSX 60 EW Stocks Above 5-Day Average
+YSFI	TSX 60 EW Stocks Above 50-Day Average
+YSOF	TSX 60 EW Stocks Above 150-Day Average
+YSOH	TSX 60 EW Stocks Above 100-Day Average
+YSTH	TSX 60 EW Stocks Above 200-Day Average
+YSTW	TSX 60 EW Stocks Above 20-Day Average
+YTFD	TSX Completion Stocks Above 5-Day Average
+YTFI	TSX Completion Stocks Above 50-Day Average
+YTOF	TSX Completion Stocks Above 150-Day Average
+YTOH	TSX Completion Stocks Above 100-Day Average
+YTTH	TSX Completion Stocks Above 200-Day Average
+YTTW	TSX Completion Stocks Above 20-Day Average
+YUFD	TSX Global Gold EW Stocks Above 5-Day Average
+YUFI	TSX Global Gold EW Stocks Above 50-Day Average
+YUOF	TSX Global Gold EW Stocks Above 150-Day Average
+YUOH	TSX Global Gold EW Stocks Above 100-Day Average
+YUTH	TSX Global Gold EW Stocks Above 200-Day Average
+YUTW	TSX Global Gold EW Stocks Above 20-Day Average
+YVFD	TSX Global Mining Stocks Above 5-Day Average
+YVFI	TSX Global Mining Stocks Above 50-Day Average
+YVOF	TSX Global Mining Stocks Above 150-Day Average
+YVOH	TSX Global Mining Stocks Above 100-Day Average
+YVTH	TSX Global Mining Stocks Above 200-Day Average
+YVTW	TSX Global Mining Stocks Above 20-Day Average
+YWFD	TSX Comp HI Beta Stocks Above 5-Day Average
+YWFI	TSX Comp HI Beta Stocks Above 50-Day Average
+YWOF	TSX Comp HI Beta Stocks Above 150-Day Average
+YWOH	TSX Comp HI Beta Stocks Above 100-Day Average
+YWTH	TSX Comp HI Beta Stocks Above 200-Day Average
+YWTW	TSX Comp HI Beta Stocks Above 20-Day Average
+YXFD	TSX HI Inc Energy Stocks Above 5-Day Average
+YXFI	TSX HI Inc Energy Stocks Above 50-Day Average
+YXOF	TSX HI Inc Energy Stocks Above 150-Day Average
+YXOH	TSX HI Inc Energy Stocks Above 100-Day Average
+YXTH	TSX HI Inc Energy Stocks Above 200-Day Average
+YXTW	TSX HI Inc Energy Stocks Above 20-Day Average
+YYFD	TSX Industrials EW Stocks Above 5-Day Average
+YYFI	TSX Industrials EW Stocks Above 50-Day Average
+YYOF	TSX Industrials EW Stocks Above 150-Day Average
+YYOH	TSX Industrials EW Stocks Above 100-Day Average
+YYTH	TSX Industrials EW Stocks Above 200-Day Average
+YYTW	TSX Industrials EW Stocks Above 20-Day Average
+YZFD	TSX Comp Low Vol Stocks Above 5-Day Average
+YZFI	TSX Comp Low Vol Stocks Above 50-Day Average
+YZOF	TSX Comp Low Vol Stocks Above 150-Day Average
+YZOH	TSX Comp Low Vol Stocks Above 100-Day Average
+YZTH	TSX Comp Low Vol Stocks Above 200-Day Average
+YZTW	TSX Comp Low Vol Stocks Above 20-Day Average
+Z0FD	TSX Oil & Gas EW Stocks Above 5-Day Average
+Z0FI	TSX Oil & Gas EW Stocks Above 50-Day Average
+Z0OF	TSX Oil & Gas EW Stocks Above 150-Day Average
+Z0OH	TSX Oil & Gas EW Stocks Above 100-Day Average
+Z0TH	TSX Oil & Gas EW Stocks Above 200-Day Average
+Z0TW	TSX Oil & Gas EW Stocks Above 20-Day Average
+Z1FD	TSX Pref Share Stocks Above 5-Day Average
+Z1FI	TSX Pref Share Stocks Above 50-Day Average
+Z1OF	TSX Pref Share Stocks Above 150-Day Average
+Z1OH	TSX Pref Share Stocks Above 100-Day Average
+Z1TH	TSX Pref Share Stocks Above 200-Day Average
+Z1TW	TSX Pref Share Stocks Above 20-Day Average
+Z2FD	TSX 60 Capped Stocks Above 5-Day Average
+Z2FI	TSX 60 Capped Stocks Above 50-Day Average
+Z2OF	TSX 60 Capped Stocks Above 150-Day Average
+Z2OH	TSX 60 Capped Stocks Above 100-Day Average
+Z2TH	TSX 60 Capped Stocks Above 200-Day Average
+Z2TW	TSX 60 Capped Stocks Above 20-Day Average
+Z3FD	TSX 60 Index Stocks Above 5-Day Average
+Z3FI	TSX 60 Index Stocks Above 50-Day Average
+Z3OF	TSX 60 Index Stocks Above 150-Day Average
+Z3OH	TSX 60 Index Stocks Above 100-Day Average
+Z3TH	TSX 60 Index Stocks Above 200-Day Average
+Z3TW	TSX 60 Index Stocks Above 20-Day Average
+Z5FD	TSX Smallcap Stocks Above 5-Day Average
+Z5FI	TSX Smallcap Stocks Above 50-Day Average
+Z5OF	TSX Smallcap Stocks Above 150-Day Average
+Z5OH	TSX Smallcap Stocks Above 100-Day Average
+Z5TH	TSX Smallcap Stocks Above 200-Day Average
+Z5TW	TSX Smallcap Stocks Above 20-Day Average
+Z6FD	TSX Smallcap Select Stocks Above 5-Day Average
+Z6FI	TSX Smallcap Select Stocks Above 50-Day Average
+Z6OF	TSX Smallcap Select Stocks Above 150-Day Average
+Z6OH	TSX Smallcap Select Stocks Above 100-Day Average
+Z6TH	TSX Smallcap Select Stocks Above 200-Day Average
+Z6TW	TSX Smallcap Select Stocks Above 20-Day Average
+Z7FD	Mx Cannabis Stocks Above 5-Day Average
+Z7FI	Mx Cannabis Stocks Above 50-Day Average
+Z7OF	Mx Cannabis Stocks Above 150-Day Average
+Z7OH	Mx Cannabis Stocks Above 100-Day Average
+Z7TH	Mx Cannabis Stocks Above 200-Day Average
+Z7TW	Mx Cannabis Stocks Above 20-Day Average
+Z8FD	S&P Cannabis Stocks Above 5-Day Average
+Z8FI	S&P Cannabis Stocks Above 50-Day Average
+Z8OF	S&P Cannabis Stocks Above 150-Day Average
+Z8OH	S&P Cannabis Stocks Above 100-Day Average
+Z8TH	S&P Cannabis Stocks Above 200-Day Average
+Z8TW	S&P Cannabis Stocks Above 20-Day Average
+Z9FD	TSX 60 ESG Stocks Above 5-Day Average
+Z9FI	TSX 60 ESG Stocks Above 50-Day Average
+Z9OF	TSX 60 ESG Stocks Above 150-Day Average
+Z9OH	TSX 60 ESG Stocks Above 100-Day Average
+Z9TH	TSX 60 ESG Stocks Above 200-Day Average
+Z9TW	TSX 60 ESG Stocks Above 20-Day Average
+ZAFD	TSX 60 Carbon Stocks Above 5-Day Average
+ZAFI	TSX 60 Carbon Stocks Above 50-Day Average
+ZAOF	TSX 60 Carbon Stocks Above 150-Day Average
+ZAOH	TSX 60 Carbon Stocks Above 100-Day Average
+ZATH	TSX 60 Carbon Stocks Above 200-Day Average
+ZATW	TSX 60 Carbon Stocks Above 20-Day Average
+ZBFD	TSX Comp ESG Stocks Above 5-Day Average
+ZBFI	TSX Comp ESG Stocks Above 50-Day Average
+ZBOF	TSX Comp ESG Stocks Above 150-Day Average
+ZBOH	TSX Comp ESG Stocks Above 100-Day Average
+ZBTH	TSX Comp ESG Stocks Above 200-Day Average
+ZBTW	TSX Comp ESG Stocks Above 20-Day Average
+ZCFD	TSX Comp Carbon Stocks Above 5-Day Average
+ZCFI	TSX Comp Carbon Stocks Above 50-Day Average
+ZCOF	TSX Comp Carbon Stocks Above 150-Day Average
+ZCOH	TSX Comp Carbon Stocks Above 100-Day Average
+ZCTH	TSX Comp Carbon Stocks Above 200-Day Average
+ZCTW	TSX Comp Carbon Stocks Above 20-Day Average
