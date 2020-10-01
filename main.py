@@ -16,6 +16,7 @@ from matplotlib.dates import DateFormatter
 import warnings
 from investopedia_simulator_api.Investopedia import InvestopediaHelper
 from textwrap import dedent
+import pickle
 
 
 today = datetime.date.today()
@@ -28,16 +29,23 @@ def startup_stuff():
 
 
 class Investor3000(object):
-    def __init__(self, credentials, symbols=None):
+    def __init__(self, credentials, symbols=None, index_file=None, save_file=None):
         self.client = InvestopediaHelper(credentials)
         self.symbols = symbols
         self.symbol_scores = {}
         self.stocks_analysed = 0
+        if index_file is None:
+            self.index_file = INDEX.txt
+        else:
+            self.index_file = index_file
+        if save_file is None:
+            self.saved = "saved.pic"
+        else:
+            self.saved = save_file
 
-    def load_symbols(self):
+    def load_symbols_from_index(self):
         self.symbols = []
-        file = "INDEX.txt"
-        with open(file, 'r') as f:
+        with open(self.index_file, 'r') as f:
             for line in f.readlines():
                 smbl = ""
                 for l in line:
@@ -56,7 +64,7 @@ class Investor3000(object):
     def analyse_stock(self, smbl, start, future_unix):
         df = pdr.get_data_yahoo(smbl, start=start, end=datetime.date.today(), interval="1m", progress=False)
         if df.empty:
-            return
+            return 1
         print(df)
         df["Prediction"] = df[["Adj Close"]].shift(-future_unix)
         x = np.array(df.drop(["Prediction"], 1))[:-future_unix]
@@ -91,17 +99,30 @@ class Investor3000(object):
                                  "svr": {"confidence": svr_confidence,
                                          "prediction": svr_prediction}}
         self.stocks_analysed += 1
+        return 0
 
     def main(self):
         if self.symbols is None:
             self.load_symbols()
-        start = today - BDay(5)
+        start = today - BDay(3)
         future_unix = 30
+        i = 0
         for smbl in self.symbols:
-            self.analyse_stock(smbl, start, future_unix)
+            try:
+                success = self.analyse_stock(smbl, start, future_unix)
+                if success == 1:
+                    self.symbols.pop(i)
+                i += 1
+            except Exception as e:
+                print("Error on '{}':{}".format(smbl, e))
+                self.symbols.pop(i)
+                i += 1
 
         print(self.symbol_scores)
         print(f"Analysed {len(self.symbols)}/{self.stocks_analysed} symbols")
+        print("Saving symbols to '{}'".format(self.saved))
+        with open(self.saved, "wb") as f:
+            f.write(pickle.dumps(self.symbol_scores))
 
 
 
