@@ -17,6 +17,8 @@ import warnings
 from investopedia_simulator_api.Investopedia import InvestopediaHelper
 from textwrap import dedent
 import pickle
+import threading
+import time
 
 
 today = datetime.date.today()
@@ -28,23 +30,43 @@ def startup_stuff():
     register_matplotlib_converters()
 
 
+def compare(vals):
+    print(vals)
+    highest_val = 0
+    for v in vals:
+        if v > highest_val:
+            highest_val = v
+    i = 0
+    for v in vals:
+        if v == highest_val:
+            return i
+        i += 1
+
+
 class Investor3000(object):
-    def __init__(self, credentials, symbols=None, index_file=None, save_file=None):
+    def __init__(self, credentials, index_file=None, save_file=None):
         self.client = InvestopediaHelper(credentials)
-        self.symbols = symbols
         self.symbol_scores = {}
         self.stocks_analysed = 0
-        if index_file is None:
-            self.index_file = INDEX.txt
-        else:
+        self.pop_symbols = []
+        self.to_invest = []
+        self.active_symbols = {}
+        if index_file is None and save_file is None:
+            print("Either specify <index_file.txt> (format: <TICKER\\t...\\nTICKER\\t...\\n etc.>) "
+                  "or a previously generated save file (pickle'd)")
+            exit(1)
+        elif index_file is None and save_file is not None:
+            self.index_file = None
+            self.save_file = save_file
+        elif index_file is not None and save_file is None:
             self.index_file = index_file
-        if save_file is None:
-            self.saved = "saved.pic"
-        else:
-            self.saved = save_file
+            self.save_file = index_file.split('.')[0] + ".pickle"
+        elif index_file is not None and save_file is not None:
+            self.index_file = index_file
+            self.save_file = save_file
 
     def load_symbols_from_index(self):
-        self.symbols = []
+        symbols = []
         with open(self.index_file, 'r') as f:
             for line in f.readlines():
                 smbl = ""
@@ -52,27 +74,46 @@ class Investor3000(object):
                     if l == '\t':
                         break
                     smbl += l
-                self.symbols.append(smbl)
-        self.symbols.pop(0)
-        print(f"Loaded {len(self.symbols)} symbols from '{file}'")
+                symbols.append(smbl)
+        symbols.pop(0)
+        print(f"Loaded {len(symbols)} symbols from '{self.index_file}'")
+        return symbols
 
-    def print_account(self):
-        print(dedent("""
-            {}
-            """).format(self.client.portfolio))
+    def load_symbols_from_saved(self):
+        with open(self.save_file, "rb") as f:
+            self.symbol_scores = pickle.loads(f.read())
 
-    def analyse_stock(self, smbl, start, future_unix):
-        df = pdr.get_data_yahoo(smbl, start=start, end=datetime.date.today(), interval="1m", progress=False)
+    def set_symbol_info(self, symbol, df, tree_confidence, tree_prediction, lr_confidence, lr_prediction,
+                        svr_confidence, svr_prediction):
+        self.symbol_scores[symbol] = {"dataframe": df,
+                                    "tree": {"confidence": tree_confidence,
+                                             "prediction": tree_prediction},
+                                    "lr": {"confidence": lr_confidence,
+                                           "prediction": lr_prediction},
+                                    "svr": {"confidence": svr_confidence,
+                                            "prediction": svr_prediction}}
+
+    def set_valid_symbols(self, symbols, start):
+        for smbl in symbols:
+            df = pdr.get_data_yahoo(smbl, start=start, end=datetime.date.today(), interval="1m", progress=False)
+            if df.empty:
+                continue
+            self.set_symbol_info(smbl, df, None, None, None, None, None, None)
+            print(f"\nStoring '{smbl}'")
+
+    def analyse_stock(self, smbl, start, interval, future_unix):
+        df = pdr.get_data_yahoo(smbl, start=start, end=datetime.date.today(), interval=interval, progress=False)
         if df.empty:
-            return 1
-        print(df)
+            print("Empty dataframe")
+            return False
         df["Prediction"] = df[["Adj Close"]].shift(-future_unix)
         x = np.array(df.drop(["Prediction"], 1))[:-future_unix]
         if len(x) == 0:
-            return
-        print("x =", x)
+            print("Not enough info in dataframe")
+            return False
+        # print("x =", x)
         y = np.array(df["Prediction"])[:-future_unix]
-        print("y =", y)
+        # print("y =", y)
         x_train, x_test, y_train, y_test = train_test_split(x, y)
 
         x_future = df.drop(["Prediction"], 1)[:-future_unix]
@@ -92,164 +133,115 @@ class Investor3000(object):
         svr_prediction = svr_rbf.predict(x_future)
         svr_confidence = svr_rbf.score(x_test, y_test)
 
-        self.symbol_scores[smbl] = {"tree": {"confidence": tree_confidence,
-                                          "prediction": tree_prediction},
-                                 "lr": {"confidence": lr_confidence,
-                                        "prediction": lr_prediction},
-                                 "svr": {"confidence": svr_confidence,
-                                         "prediction": svr_prediction}}
+        self.set_symbol_info(smbl, df, tree_confidence, tree_prediction, lr_confidence, lr_prediction,
+                             svr_confidence, svr_prediction)
+
         self.stocks_analysed += 1
-        return 0
+        print(f"'{smbl}' added")
+        return True
+
+    def decide_buy(self, smbl):
+            confidences = [self.symbol_scores[smbl]["tree"]["confidence"], self.symbol_scores[smbl]["lr"]["confidence"],
+                           self.symbol_scores[smbl]["svr"]["confidence"]]
+            if np.isnan(confidences).any():
+                return None
+            models = ["tree", "lr", "svr"]
+            choice = compare(confidences)
+            model = models[choice]
+            print(f"Using {model} model for {smbl}")
+            # last_adj_close = self.symbol_scores[smbl]["dataframe"]["Adj Close"][-1]
+            price = self.client.get_quote(smbl)
+            if price is None:
+                self.pop_symbols.append(smbl)
+                return None
+            price = float(price["last"])
+            difference = self.symbol_scores[smbl][model]["prediction"][-1] - price
+            increase = round(difference / price * 100, 3)
+            print(f"Predicting an increase of {increase}% in the next 30 minutes")
+            if increase > 0.75:
+                return (price, increase)
+
+
+    def invest(self, smbl):
+        print("New thread for symbol", smbl)
+        info = self.decide_buy(smbl)
+        if info is None:
+            return
+        price = info[0]
+        increase = info[1]
+        buying_power = self.client.portfolio.buying_power
+        buy_amount = float(buying_power) / price
+        buy_amount /= price
+        buy_amount *= (increase * 2)
+        buy_amount /= price
+        print(f"buy amount for {smbl} : {buy_amount}")
+        buy_amount = int(buy_amount)
+        print(f"Buying {buy_amount} shares of {smbl}")
+        limit = "limit " + str(round(price * 1.01, 3))
+        print("Attempting buy for", smbl)
+        trade_info = self.client.buy_stock(smbl, buy_amount, limit)
+        print(trade_info)
+        time.sleep(1800)
+        info = self.client.sell_stock(smbl, buy_amount, limit)
+        print(info)
+
 
     def main(self):
-        if self.symbols is None:
-            self.load_symbols()
         start = today - BDay(3)
         future_unix = 30
-        i = 0
-        for smbl in self.symbols:
-            try:
-                success = self.analyse_stock(smbl, start, future_unix)
-                if success == 1:
-                    self.symbols.pop(i)
-                i += 1
-            except Exception as e:
-                print("Error on '{}':{}".format(smbl, e))
-                self.symbols.pop(i)
-                i += 1
+        if self.index_file is not None:
+            symbols = self.load_symbols_from_index()
+            self.set_valid_symbols(symbols, start)
+        else:
+            self.load_symbols_from_saved()
 
-        print(self.symbol_scores)
-        print(f"Analysed {len(self.symbols)}/{self.stocks_analysed} symbols")
-        print("Saving symbols to '{}'".format(self.saved))
-        with open(self.saved, "wb") as f:
+        # for smbl in self.symbol_scores.keys():
+        #     try:
+        #         success = self.analyse_stock(smbl, start, "1m", future_unix)
+        #         if not success:
+        #             self.pop_symbols.append(smbl)
+        #             print(f"'{smbl}' failed, gonna get popped")
+        #     except Exception as e:
+        #         print("Error on '{}':'{}' -> gonna get popped".format(smbl, e))
+        #         self.pop_symbols.append(smbl)
+        # for smbl in self.pop_symbols:
+        #     self.symbol_scores.pop(smbl)
+
+        print(f"Analysed {self.stocks_analysed} symbols successfully")
+        print("Saving symbols to '{}'".format(self.save_file))
+        with open(self.save_file, "wb") as f:
             f.write(pickle.dumps(self.symbol_scores))
+        while True:
+            print(dedent("""
+            1 - Auto invest
+            2 - Manual invest
+            3 - Quit
+            """))
+
+            choice = input("> ")
+            if choice == '1':
+                print(len(self.symbol_scores))
+                try:
+                    for smbl in self.symbol_scores.keys():
+                        thread = threading.Thread(target=self.invest, args=(smbl,))
+                        thread.start()
+                except Exception as e:
+                    print(f"error for {smbl} : {e}")
+            elif choice == '2':
+                pass
+                # self.manual_invest
+            elif choice == '3':
+                return
+            else:
+                print("Invalid input")
 
 
 
-startup_stuff()
-muney = Investor3000({"username" : "kandiotisa@gmail.com", "password" : "BlackList144"})
-muney.main()
-"""
-print("Enter stock symbol:")
-smbl = input("> ")
-
-start = datetime.date.today() - BDay(5)
-end = datetime.date.today() - BDay(1)
-df = pdr.get_data_yahoo(smbl, start=start, end=end, interval="1m", progress=False)
-# df = df.drop(["Open", "High", "Low", "Close", "Volume"], axis=1)
-print(df.head(6))
-# df.plot()
-# plt.show()
-
-future_unix = 60
-df["Prediction"] = df[["Adj Close"]].shift(-future_unix)
-
-print(df.tail(4))
-
-x = np.array(df.drop(["Prediction"], 1))[:-future_unix]
-y = np.array(df["Prediction"])[:-future_unix]
-
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.25)
-
-tree = DecisionTreeRegressor().fit(x_train, y_train)
-lr = LinearRegression().fit(x_train, y_train)
-
-x_future = df.drop(["Prediction"], 1)[:-future_unix]
-x_future = x_future.tail(future_unix)
-x_future = np.array(x_future)
-
-tree_prediction = tree.predict(x_future)
-tree_confidence = tree.score(x_train, y_train)
-lr_prediction = lr.predict(x_future)
-lr_confidence = lr.score(x_test, y_test)
-
-print("tree confidence: {}\nlinear regression confidence: {}".format(tree_confidence, lr_confidence))
-
-plt.figure(figsize=(16,8))
-
-higher = ""
-
-x_train, x_test, y_train, y_test = train_test_split(X, y, test_size=0.01)
-svr_rbf = SVR(kernel='rbf', C=1e3, gamma=0.1)
-svr_rbf.fit(x_train, y_train)
-
-svm_confidence = svr_rbf.score(x_test, y_test)
-
-if tree_confidence > 0.7 and tree_confidence > lr_confidence:
-    higher = "tree"
-    print("Using tree for predictions")
-    predictions = tree_prediction
-    valid = df[x.shape[0]:]
-    valid["Predictions"] = predictions
-    plt.plot(df["Adj Close"])
-    plt.plot(valid[["Adj Close", "Predictions"]])
-    plt.legend(["Train", "Val", "Tree Prediction"], loc="lower right")
-    # plt.show()
-elif lr_confidence > 0.7 and lr_confidence > tree_confidence:
-    higher = "lr"
-    predictions = lr_prediction
-    valid = df[x.shape[0]:]
-    valid["Predictions"] = predictions
-    plt.plot(df["Adj Close"])
-    plt.plot(valid[["Adj Close", "Predictions"]])
-    plt.legend(["Train", "Val", "LR Prediction"], loc="lower right")
-    # plt.show()
-else:
-    print("No confidence in {}, not investing".format(smbl))
-    exit()
-
-set = None
-if higher == "tree":
-    set = tree_prediction
-else:
-    set = lr_prediction
-
-last_val = set[-1]
-
-adj_close_avg = 0
-i = 0
-for n in df["Adj Close"]:
-    adj_close_avg += n
-    i += 1
-
-adj_close_avg /= i
-
-print("Last Adj Close = {}\nprediction val = {}".format(adj_close_avg, last_val))
-
-difference = last_val - adj_close_avg
-increase = difference / adj_close_avg * 100
-print(f"Increased by {increase:.3f}%")
-print("Show graph? y/n")
-if input("> ") == 'y':
-    plt.show()
-
-print("Invest? y/n")
-if input("> ") == 'y':
-    credentials = {"username" : "kandiotisa@gmail.com", "password" : "BlackList144"}
-    client = InvestopediaApi(credentials)
-    p = client.portfolio
-    print("Account value:", p.account_value)
-    print("Cash:", p.cash)
-    print("Buying power:", p.buying_power)
-
-    quote = client.get_stock_quote(smbl)
-    print(quote.__dict__)
-
-    trade_type = 'buy'
-    limit_1000 = 'limit 1000'
-
-    print("How much do you want to invest?")
-    amount = input("> ")
-
-    trade = client.StockTrade(smbl, int(amount), trade_type, order_type=limit_1000)
-    trade_info = trade.validate()
-    if trade.validated:
-        print(trade_info)
-        trade.execute()
-else:
-    print('bye')
+def main():
+    startup_stuff()
+    muney = Investor3000({"username": "georgevarahidis@gmail.com", "password": "WelcomeEleven11"}, save_file="TSX.pickle")
+    muney.main()
 
 
-
-
-"""
+if __name__ == "__main__":
+    main()

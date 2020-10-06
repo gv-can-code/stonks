@@ -1,4 +1,7 @@
 Symbol	Description
+CRSR
+AQN
+FTS
 ADDA	AMEX Advance Decline Difference
 ADDC	CSE Advance Decline Difference
 ADDE	ETFS Advance Decline Difference
