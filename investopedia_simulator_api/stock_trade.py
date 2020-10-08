@@ -47,5 +47,7 @@ class StockTrade(Trade):
     def go_to_preview(self):
         session = Session()
         uri = UrlHelper.set_query(self.base_url, self.query_params)
+        # print(self.base_url, self.query_params)
+        # print(uri)
         self.form_data.update({'isShowMax': 0})
         return session.post(uri, data=self.form_data)

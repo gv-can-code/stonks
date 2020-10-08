@@ -123,8 +123,12 @@ class UrlHelper(object):
 
     @staticmethod
     def set_query(url, query_dict):
+        # print("HERREEE")
         query_string = parse.urlencode(query_dict)
-        return UrlHelper.set_field(url, 'query', query_string)
+        ret = UrlHelper.set_field(url, 'query', query_string)
+        # print(ret)
+        # print("\n\n")
+        return ret
 
     @staticmethod
     def set_field(url, field, value):
@@ -138,6 +142,7 @@ class UrlHelper(object):
     def get_query_params(url):
         query_str = parse.urlsplit(url).query
         query_params = parse.parse_qsl(query_str)
+        print("Query params:", dict(query_params))
         return dict(query_params)
 
     routes = PATHS

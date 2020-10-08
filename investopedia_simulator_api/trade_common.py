@@ -428,6 +428,7 @@ class Trade(object):
                 "Quantity %s exceeds max of %s" % (self.quantity, max_shares), max_shares)
         try:
             resp = self.go_to_preview()
+            # print(resp)
             redirect_url = resp.history[0].headers['Location']
             redirect_qp = UrlHelper.get_query_params(redirect_url)
 

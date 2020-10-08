@@ -19,9 +19,13 @@ from textwrap import dedent
 import pickle
 import threading
 import time
+from GUI import GUI
+from WSTrade import WSTrade
+from forex_python.converter import CurrencyRates
 
 
 today = datetime.date.today()
+c = CurrencyRates()
 
 
 def startup_stuff():
@@ -44,8 +48,13 @@ def compare(vals):
 
 
 class Investor3000(object):
-    def __init__(self, credentials, index_file=None, save_file=None):
-        self.client = InvestopediaHelper(credentials)
+    def __init__(self, credentials, simulate=True, index_file=None, save_file=None):
+        if simulate:
+            self.client = InvestopediaHelper(credentials)
+        else:
+            self.client = WSTrade()
+            self.client.login(credentials)
+        self.simulate = simulate
         self.symbol_scores = {}
         self.stocks_analysed = 0
         self.pop_symbols = []
@@ -149,17 +158,34 @@ class Investor3000(object):
             choice = compare(confidences)
             model = models[choice]
             print(f"Using {model} model for {smbl}")
-            # last_adj_close = self.symbol_scores[smbl]["dataframe"]["Adj Close"][-1]
-            price = self.client.get_quote(smbl)
-            if price is None:
-                self.pop_symbols.append(smbl)
-                return None
-            price = float(price["last"])
+            price = 0
+            security = ""
+            currency = ""
+            info = {}
+            if self.simulate:
+                price = self.client.get_quote(smbl)
+                if price is None:
+                    self.pop_symbols.append(smbl)
+                    return None
+                else:
+                    price = float(price["last"])
+                    info["price"] = price
+            else:
+                security, price, currency = self.client.get_security_n_price(smbl)
+                if price is None:
+                    self.pop_symbols.append(smbl)
+                    return None
+                info["security"] = security
+                info["price"] = price
+                info["currency"] = currency
             difference = self.symbol_scores[smbl][model]["prediction"][-1] - price
             increase = round(difference / price * 100, 3)
-            print(f"Predicting an increase of {increase}% in the next 30 minutes")
-            if increase > 0.75:
-                return (price, increase)
+            print(f"Predicting an increase of {increase}% in the next 30 minutes for {smbl}")
+            if increase > 1:
+                info["increase"] = increase
+                return info
+            else:
+                return None
 
 
     def invest(self, smbl):
@@ -167,9 +193,16 @@ class Investor3000(object):
         info = self.decide_buy(smbl)
         if info is None:
             return
-        price = info[0]
-        increase = info[1]
-        buying_power = self.client.portfolio.buying_power
+        price = info["price"]
+        increase = info["increase"]
+        buying_power = 0
+        if self.simulate:
+            buying_power = self.client.portfolio.buying_power
+        else:
+            buying_power = self.client.get_buying_power()
+            if info["currency"] == "USD":
+                c.get_rates("USD")
+                price *= c["CAD"]
         buy_amount = float(buying_power) / price
         buy_amount /= price
         buy_amount *= (increase * 2)
@@ -179,10 +212,18 @@ class Investor3000(object):
         print(f"Buying {buy_amount} shares of {smbl}")
         limit = "limit " + str(round(price * 1.01, 3))
         print("Attempting buy for", smbl)
-        trade_info = self.client.buy_stock(smbl, buy_amount, limit)
+        trade_info = 0
+        if self.simulate:
+            trade_info = self.client.buy_stock(smbl, buy_amount, limit)
+        else:
+
+            trade_info = self.client.place_order(info["security"], buy_amount, "buy")
         print(trade_info)
         time.sleep(1800)
-        info = self.client.sell_stock(smbl, buy_amount, limit)
+        if self.simulate:
+            trade_info = self.client.sell_stock(smbl, buy_amount, limit)
+        else:
+            trade_info = self.client.place_order(sec)
         print(info)
 
 
@@ -236,12 +277,19 @@ class Investor3000(object):
                 print("Invalid input")
 
 
-
-def main():
+def simulator():
     startup_stuff()
     muney = Investor3000({"username": "georgevarahidis@gmail.com", "password": "WelcomeEleven11"}, save_file="TSX.pickle")
     muney.main()
+    
+    
+def trade():
+    
+
+
+def gui():
+   pass 
 
 
 if __name__ == "__main__":
-    main()
+    simulator()
