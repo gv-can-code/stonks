@@ -48,13 +48,9 @@ def compare(vals):
 
 
 class Investor3000(object):
-    def __init__(self, credentials, simulate=True, index_file=None, save_file=None):
-        if simulate:
-            self.client = InvestopediaHelper(credentials)
-        else:
-            self.client = WSTrade()
-            self.client.login(credentials)
-        self.simulate = simulate
+    def __init__(self, credentials, index_file=None, save_file=None):
+        self.client = WSTrade()
+        self.client.login(credentials)
         self.symbol_scores = {}
         self.stocks_analysed = 0
         self.pop_symbols = []
@@ -162,26 +158,17 @@ class Investor3000(object):
             security = ""
             currency = ""
             info = {}
-            if self.simulate:
-                price = self.client.get_quote(smbl)
-                if price is None:
-                    self.pop_symbols.append(smbl)
-                    return None
-                else:
-                    price = float(price["last"])
-                    info["price"] = price
-            else:
-                security, price, currency = self.client.get_security_n_price(smbl)
-                if price is None:
-                    self.pop_symbols.append(smbl)
-                    return None
-                info["security"] = security
-                info["price"] = price
-                info["currency"] = currency
+            security, price, currency = self.client.get_security_n_price(smbl)
+            if price is None:
+                self.pop_symbols.append(smbl)
+                return None
+            info["security"] = security
+            info["price"] = price
+            info["currency"] = currency
             difference = self.symbol_scores[smbl][model]["prediction"][-1] - price
             increase = round(difference / price * 100, 3)
             print(f"Predicting an increase of {increase}% in the next 30 minutes for {smbl}")
-            if increase > 1:
+            if increase > 1.5:
                 info["increase"] = increase
                 return info
             else:
@@ -196,13 +183,10 @@ class Investor3000(object):
         price = info["price"]
         increase = info["increase"]
         buying_power = 0
-        if self.simulate:
-            buying_power = self.client.portfolio.buying_power
-        else:
-            buying_power = self.client.get_buying_power()
-            if info["currency"] == "USD":
-                c.get_rates("USD")
-                price *= c["CAD"]
+        buying_power = self.client.get_buying_power()
+        if info["currency"] == "USD":
+            c.get_rates("USD")
+            price *= c["CAD"]
         buy_amount = float(buying_power) / price
         buy_amount /= price
         buy_amount *= (increase * 2)
@@ -210,20 +194,13 @@ class Investor3000(object):
         print(f"buy amount for {smbl} : {buy_amount}")
         buy_amount = int(buy_amount)
         print(f"Buying {buy_amount} shares of {smbl}")
-        limit = "limit " + str(round(price * 1.01, 3))
+        # limit = round(price * 1.01, 3)
         print("Attempting buy for", smbl)
         trade_info = 0
-        if self.simulate:
-            trade_info = self.client.buy_stock(smbl, buy_amount, limit)
-        else:
-
-            trade_info = self.client.place_order(info["security"], buy_amount, "buy")
+        trade_info = self.client.place_order(info["security"], None, buy_amount, "buy")
         print(trade_info)
         time.sleep(1800)
-        if self.simulate:
-            trade_info = self.client.sell_stock(smbl, buy_amount, limit)
-        else:
-            trade_info = self.client.place_order(sec)
+        trade_info = self.client.place_order(info["security"], None, buy_amount, "sell")
         print(info)
 
 

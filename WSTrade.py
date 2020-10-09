@@ -43,10 +43,10 @@ class WSTrade(object):
         return float(json.loads(r.text)["results"][0]["buying_power"]["amount"])
 
 
-    def place_order(self, security, quantity, buy_or_sell):
+    def place_order(self, security, limit, quantity, buy_or_sell):
         content = {
             "security_id" : security,
-            "limit_price" : None,
+            "limit_price" : limit,
             "quantity" : quantity,
             "order_type" : buy_or_sell,
             "order_sub_type" : "limit",
