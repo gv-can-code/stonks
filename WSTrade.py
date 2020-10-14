@@ -31,12 +31,13 @@ class WSTrade(object):
         text = json.loads(r.text)
         if len(text["results"]) == 0:
             return (None, None, None)
-        security = json.loads(r.text)["results"]["-1"]["id"]
-        r = req.get("https://trade-service.wealthsimple.com/securities/" + security)
+        security = json.loads(r.text)["results"][-1]["id"]
+        r = req.get("https://trade-service.wealthsimple.com/securities/" + security, headers=self.auth_header)
         text = json.loads(r.text)
+        # print(text)
         price = text["quote"]["ask"]
         currency = text["quote"]["currency"]
-        return (security, price, currency)
+        return (security, float(price), currency)
 
     def get_buying_power(self):
         r = req.get("https://trade-service.wealthsimple.com/account/list", headers=self.auth_header)
@@ -48,19 +49,11 @@ class WSTrade(object):
             "security_id" : security,
             "limit_price" : limit,
             "quantity" : quantity,
-            "order_type" : buy_or_sell,
-            "order_sub_type" : "limit",
+            "order_type" : buy_or_sell + "_quantity",
+            "order_sub_type" : "market",
             "time_in_force" : "day",
             "api_paste_format" : "python"
         }
         r = req.post("https://trade-service.wealthsimple.com/orders", json=content, headers=self.auth_header)
         return r.text
 
-def test():
-    trade = WSTrade()
-    trade.login({"email" : "kandiotisa@gmail.com", "password" : "BlackList144"})
-    bp = trade.get_buying_power()
-    print(bp)
-    # trade.get_security_n_price("FWEXMWQ")
-
-test()
